@@ -17,7 +17,7 @@
  *
  * @var string
  */
-define('SECRET_ACCESS_TOKEN', 'need to figure this out');
+define('SECRET_ACCESS_TOKEN', 'mysecretaccesstokenfromdeployfile');
 
 /**
  * The address of the remote GIT repository that contains the code we're
