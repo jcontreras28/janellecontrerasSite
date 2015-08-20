@@ -25,7 +25,7 @@ define('SECRET_ACCESS_TOKEN', 'mysecretaccesstokenfromdeployfile');
  *
  * @var string
  */
-define('REMOTE_REPOSITORY', 'http://github.com/jcontreras28/janellecontrerasSite.git');
+define('REMOTE_REPOSITORY', 'git@github.com-janellecontrerasSite:jcontreras28/janellecontrerasSite.git');
 
 /**
  * Which branch are we going to use for deployment.
@@ -80,7 +80,7 @@ define('TMP_DIR', '/tmp/spgd-'.md5(REMOTE_REPOSITORY).'-'.time().'/');
  *
  * @var string Full path to the file name
  */
-define('VERSION_FILE', TMP_DIR.'/public_html/DEPLOYED_VERSION');
+define('VERSION_FILE', TMP_DIR.'/html/DEPLOYED_VERSION');
 
 /**
  * Time limit for each command.
