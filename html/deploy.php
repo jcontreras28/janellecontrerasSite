@@ -25,7 +25,7 @@ define('SECRET_ACCESS_TOKEN', 'mysecretaccesstokenfromdeployfile');
  *
  * @var string
  */
-define('REMOTE_REPOSITORY', 'git@github.com-janellecontrerasSite:jcontreras28/janellecontrerasSite.git');
+define('REMOTE_REPOSITORY', 'https://github.com/jcontreras28/janellecontrerasSite.git');
 
 /**
  * Which branch are we going to use for deployment.
