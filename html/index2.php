@@ -1,6 +1,5 @@
 <?php
         echo "hello world";
-
 ?>
 
 <!doctype html>
