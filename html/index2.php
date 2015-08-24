@@ -21,7 +21,7 @@
         </head>
         <body>
                 <div class="mainBodyWrap">
-                        <h2>Hello world!</h2>
+                        <h2>Hello world 2!</h2>
                 </div>
         </body>
 </html>
