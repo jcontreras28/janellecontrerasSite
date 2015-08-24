@@ -14,17 +14,4 @@
 
 // Include bootstrap
 //@import "vendor/bootstrap";
-//@import "components/siteHead";
-//@import "components/homePage";
-//@import "components/sectionGrid";
-
-
-.discPageBody {
-    margin: 0px;
-    padding-top: 4px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-
-    .discBodyWrap {
-        padding: 0px !important;
-    }
-}
+@import "components/janelleStyles";
