@@ -1,0 +1,17 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800|Open+Sans+Condensed:300,300italic,700);
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+body {
+  padding: 0 16px;
+  background-color: #870e06;
+  color: white;
+  margin: 10px auto; }
+  body .mainBodyWrap {
+    background-color: black;
+    width: 80%;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 0px auto; }
