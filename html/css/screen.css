@@ -7,7 +7,7 @@
 body {
   padding: 0 16px;
   background-color: #f3efe0;
-  color: #22a39f;
+  color: #727878;
   margin: 10px auto; }
   body .mainBodyWrap {
     background-color: #f3efe0;
@@ -19,7 +19,7 @@ body {
       text-align: left;
       font-size: 2.5em;
       font-style: italic;
-      color: #434242; }
+      color: #22a39f; }
     body .mainBodyWrap .sectionBar {
       background-color: #73503c;
       padding: 10px;
@@ -33,13 +33,13 @@ body {
     width: 70%;
     height: 100px; }
     body .colorScheme .ruby {
-      background-color: #434242;
+      background-color: #22a39f;
       height: 100px; }
     body .colorScheme .pink {
-      background-color: #727878;
+      background-color: #434242;
       height: 100px; }
     body .colorScheme .tan {
-      background-color: #22a39f;
+      background-color: #727878;
       height: 100px; }
     body .colorScheme .nude {
       background-color: #a68572;
