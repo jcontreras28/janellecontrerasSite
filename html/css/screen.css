@@ -22,8 +22,8 @@ body {
     body .mainBodyWrap .sectionBar {
       background-color: #73503c;
       padding: 10px;
-      width: 98%;
-      margin-left: 2%; }
+      width: 105%;
+      margin-left: 0px; }
   body .colorScheme {
     background-color: white;
     margin-top: 10px;
