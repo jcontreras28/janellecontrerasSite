@@ -20,7 +20,6 @@
         </head>
         <body>
                 <div class="mainBodyWrap">
-                        <h2>Hello world 6!</h2>
                         <div class="row sectionHeading">
                                 <div class="col-md-3">
                                         <img src="./images/profilePic" width="95%">
