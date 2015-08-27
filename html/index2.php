@@ -1,5 +1,4 @@
 <?php
-        echo "hello world";
 ?>
 
 <!doctype html>
@@ -22,6 +21,18 @@
         <body>
                 <div class="mainBodyWrap">
                         <h2>Hello world 6!</h2>
+                        <div class="row sectionHeading">
+                                <div class="col-md-3">
+                                        <img src="./images/profilePic" width="95%">
+                                </div>
+                                <div class="col-md-9">
+                                        <div class="sectionTitle">
+                                                What I can do
+                                        </div>
+                                        <div class="setionBar">
+                                        </div>
+                                </div>
+                        </div>
                 </div>
         </body>
 </html>
