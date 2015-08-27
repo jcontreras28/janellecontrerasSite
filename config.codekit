@@ -29,6 +29,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html\/images\/captamer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92120,
+		"inputAbbreviatedPath": "\/html\/images\/captamer.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/captamer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/fishin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68428,
+		"inputAbbreviatedPath": "\/html\/images\/fishin.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/fishin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/harley.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58607,
+		"inputAbbreviatedPath": "\/html\/images\/harley.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/harley.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/oscon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89575,
+		"inputAbbreviatedPath": "\/html\/images\/oscon.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/oscon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/softball.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33367,
+		"inputAbbreviatedPath": "\/html\/images\/softball.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/softball.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/suncar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18276,
+		"inputAbbreviatedPath": "\/html\/images\/suncar.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/suncar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/index2.php": {
 		"fileType": 8192,
 		"ignore": 0,
