@@ -31,6 +31,8 @@
                                 </div>
                                 <div class="col-xs-2 brown">
                                 </div>
+                                <div class="col-xs-2 black">
+                                </div>
                         </div>
                         <div class="row sectionHeading">
                                 <div class="col-md-3">
