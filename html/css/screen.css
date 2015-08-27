@@ -2,20 +2,15 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/*$siteTan: #F2D8A7;
-$siteRuby: #591E23;
-$sitePink: #d94e67;
-$siteNude: #a68572;
-$siteBrown: #73503c;*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800|Open+Sans+Condensed:300,300italic,700);
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 body {
   padding: 0 16px;
-  background-color: black;
-  color: black;
+  background-color: #f3efe0;
+  color: #22a39f;
   margin: 10px auto; }
   body .mainBodyWrap {
-    background-color: #22a39f;
+    background-color: #f3efe0;
     width: 70%;
     padding: 10px 10px;
     text-align: center;
@@ -23,7 +18,8 @@ body {
     body .mainBodyWrap .sectionTitle {
       text-align: left;
       font-size: 2.5em;
-      font-style: italic; }
+      font-style: italic;
+      color: #434242; }
     body .mainBodyWrap .sectionBar {
       background-color: #73503c;
       padding: 10px;
@@ -37,16 +33,16 @@ body {
     width: 70%;
     height: 100px; }
     body .colorScheme .ruby {
-      background-color: #727878;
+      background-color: #591E23;
       height: 100px; }
     body .colorScheme .pink {
-      background-color: #434242;
+      background-color: #d94e67;
       height: 100px; }
     body .colorScheme .tan {
-      background-color: #22a39f;
+      background-color: #F2D8A7;
       height: 100px; }
     body .colorScheme .nude {
-      background-color: #f3efe0;
+      background-color: #a68572;
       height: 100px; }
     body .colorScheme .brown {
       background-color: #73503c;
