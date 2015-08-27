@@ -28,7 +28,7 @@
                                         <div class="sectionTitle">
                                                 What I can do
                                         </div>
-                                        <div class="setionBar">
+                                        <div class="sectionBar">
                                         </div>
                                 </div>
                         </div>
