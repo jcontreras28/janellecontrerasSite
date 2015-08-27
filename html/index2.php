@@ -20,13 +20,25 @@
         </head>
         <body>
                 <div class="mainBodyWrap">
+                        <div class="row colorScheme">
+                                <div class="col-xs-2 ruby">
+                                </div>
+                                <div class="col-xs-2 pink">
+                                </div>
+                                <div class="col-xs-2 tan">
+                                </div>
+                                <div class="col-xs-2 nude">
+                                </div>
+                                <div class="col-xs-2 brown">
+                                </div>
+                        </div>
                         <div class="row sectionHeading">
                                 <div class="col-md-3">
                                         <img src="./images/profilePic" width="95%">
                                 </div>
                                 <div class="col-md-9">
                                         <div class="sectionTitle">
-                                                What I can do
+                                                What can I do?
                                         </div>
                                         <div class="sectionBar">
                                         </div>
