@@ -37,7 +37,7 @@
 
                         <div class="row sectionHeading">
                                 <div class="col-md-3">
-                                        <img src="./images/profilePic" width="95%">
+                                        <img src="./images/suncar.jpg" width="95%">
                                 </div>
                                 <div class="col-md-9">
                                         <div class="sectionTitle">
