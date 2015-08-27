@@ -19,21 +19,22 @@
                 <link rel="stylesheet" href="css/screen.css">
         </head>
         <body>
-                <div class="mainBodyWrap">
-                        <div class="row colorScheme">
-                                <div class="col-xs-2 ruby">
-                                </div>
-                                <div class="col-xs-2 pink">
-                                </div>
-                                <div class="col-xs-2 tan">
-                                </div>
-                                <div class="col-xs-2 nude">
-                                </div>
-                                <div class="col-xs-2 brown">
-                                </div>
-                                <div class="col-xs-2 black">
-                                </div>
+                <div class="row colorScheme">
+                        <div class="col-xs-2 ruby">
                         </div>
+                        <div class="col-xs-2 pink">
+                        </div>
+                        <div class="col-xs-2 tan">
+                        </div>
+                        <div class="col-xs-2 nude">
+                        </div>
+                        <div class="col-xs-2 brown">
+                        </div>
+                        <div class="col-xs-2 black">
+                        </div>
+                </div>
+                <div class="mainBodyWrap">
+
                         <div class="row sectionHeading">
                                 <div class="col-md-3">
                                         <img src="./images/profilePic" width="95%">
