@@ -10,8 +10,12 @@ body {
   color: black;
   margin: 10px auto; }
   body .mainBodyWrap {
-    background-color: #990099;
+    background-color: #F3E5AB;
     width: 70%;
     padding: 10px 10px;
     text-align: center;
     margin: 0px auto; }
+    body .mainBodyWrap .sectionTitle {
+      text-align: left;
+      font-size: 1.4em;
+      font-style: italic; }
