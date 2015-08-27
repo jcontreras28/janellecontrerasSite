@@ -2,6 +2,11 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*$siteTan: #F2D8A7;
+$siteRuby: #591E23;
+$sitePink: #d94e67;
+$siteNude: #a68572;
+$siteBrown: #73503c;*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800|Open+Sans+Condensed:300,300italic,700);
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 body {
@@ -10,7 +15,7 @@ body {
   color: black;
   margin: 10px auto; }
   body .mainBodyWrap {
-    background-color: #F2D8A7;
+    background-color: #22a39f;
     width: 70%;
     padding: 10px 10px;
     text-align: center;
@@ -32,13 +37,13 @@ body {
     width: 70%;
     height: 100px; }
     body .colorScheme .ruby {
-      background-color: #591E23;
+      background-color: #727878;
       height: 100px; }
     body .colorScheme .pink {
-      background-color: #d94e67;
+      background-color: #434242;
       height: 100px; }
     body .colorScheme .tan {
-      background-color: #F2D8A7;
+      background-color: #22a39f;
       height: 100px; }
     body .colorScheme .nude {
       background-color: #a68572;
