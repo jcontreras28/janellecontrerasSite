@@ -26,8 +26,11 @@ body {
       padding: 20px;
       width: 105%;
       margin-left: 0px; }
-    body .mainBodyWrap .sectionText p {
-      color: #727878; }
+    body .mainBodyWrap .sectionText {
+      text-align: left;
+      padding: 20px; }
+      body .mainBodyWrap .sectionText p {
+        color: #727878; }
   body .colorScheme {
     background-color: white;
     margin-top: 10px;
