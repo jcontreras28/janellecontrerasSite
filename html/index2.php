@@ -49,7 +49,8 @@
                         </div>
                         <div class="row sectionText">
                                 <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
-                                <p>For example, this site was a learning project.  I built an Amazon web server with Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
+                                <p>For example, I built this site as an Amazon web server with Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
+                                        I pointed it to my domain name using Route 53.
                                         The content is stored in a repo up on github which has a webhook to call a deploy script on my webserver whenever I push new content from my local machine.  
                                         This script then goes and grabs the current site content.  Pretty basic setup that we use currently on most projects within my current company.
                                         This project also uses sass for the css.  The sass code is compiled using codekit.
