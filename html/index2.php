@@ -19,7 +19,7 @@
                 <link rel="stylesheet" href="css/screen.css">
         </head>
         <body>
-                <div class="row colorScheme">
+                <!--<div class="row colorScheme">
                         <div class="col-xs-2 ruby">
                         </div>
                         <div class="col-xs-2 pink">
@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-xs-2 black">
                         </div>
-                </div>
+                </div>-->
                 <div class="mainBodyWrap">
 
                         <div class="row sectionHeading">
