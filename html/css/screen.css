@@ -6,10 +6,11 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 body {
   padding: 0 16px;
-  background-color: #22a39f;
+  background-color: black;
   color: #727878;
   margin: 10px auto; }
   body .mainBodyWrap {
+    border: 15px solid #f3efe0;
     background-color: #f3efe0;
     width: 70%;
     padding: 10px 10px;
