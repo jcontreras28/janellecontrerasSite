@@ -14,7 +14,8 @@ body {
     width: 70%;
     padding: 10px 10px;
     text-align: center;
-    margin: 0px auto; }
+    margin: 0px auto;
+    height: 10000px; }
     body .mainBodyWrap .sectionTitle {
       margin-top: 100px;
       text-align: left;
