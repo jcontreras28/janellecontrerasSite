@@ -46,12 +46,12 @@ body {
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
       text-align: right;
-      padding-right: 10px;
       background-color: #434242;
       color: white;
       width: 100%; }
       body .mainBodyWrap .mobileNav .sandMenu {
-        background-color: #434242; }
+        background-color: #434242;
+        margin-right: 5px; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
