@@ -117,16 +117,15 @@
                         var theId = $(this).attr('id');
                         theId = theId.replace("li", "");
 
-                        var oldTab = $('.menuItemSelected');
+                        var oldTab = $('menuItemSelected');
                         oldTab.removeClass('menuItemSelected');
 
                         $(this).addClass("menuItemSelected");
-                        
-                        var oldPanel = $('.selected')
+                        var oldPanel = $('selected')
                         oldPanel.removeClass("selected")
                         
                         var newPanel = $('#' + theId);
-                        newPanel.addClass(".selected");
+                        newPanel.addClass("selected");
                 });
         </script>
 
