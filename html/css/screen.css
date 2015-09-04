@@ -43,6 +43,7 @@ body {
       display: none; }
     body .mainBodyWrap .mainNav {
       width: 100%;
+      height: 35px;
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
       text-align: center;
@@ -55,7 +56,8 @@ body {
           bakcground-color: #22a39f; }
       body .mainBodyWrap .mainNav .menuItemSelected {
         background-color: #f3efe0;
-        color: #22a39f; }
+        color: #22a39f;
+        padding-top: 1px; }
   body .colorScheme {
     background-color: white;
     margin-top: 10px;
