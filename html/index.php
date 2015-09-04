@@ -23,9 +23,9 @@
                         <div class="mainNav">
                                 <ul>
                                         <li class="tabItem menuItemSelected" id="liskills">Skills</li>
-                                        <li class="tabItem" id="liabout">About</li>
                                         <li class="tabItem" id="liexperience">Work experience</li>
                                         <li class="tabItem" id="lidream">Dream</li>
+                                        <li class="tabItem" id="liabout">About</li>
                                 </ul>
                         </div><!-- mainNav -->
 
@@ -49,26 +49,6 @@
                                                 The content is stored in a repo up on github which has a webhook to call a deploy script on my webserver whenever I push new content from my local machine.  
                                                 This script then goes and grabs the current site content.  Pretty basic setup that we use currently on most projects within my current company.
                                                 This project also uses sass for the css.  The sass code is compiled using codekit.
-                                        </p>
-                                </div><!-- sectionText -->
-                                <div class="windowwidth">click for window width</div>
-                        </div><!-- panelWrap -->
-                        <div class="panelWrap" id="about">
-                                <div class="row sectionHeading">
-                                        <div class="col-md-3">
-                                                <img src="./images/softball.jpg">
-                                        </div>
-                                        <div class="col-md-9">
-                                                <div class="sectionTitle">
-                                                        Who am I?
-                                                </div>
-                                                <div class="sectionBar">
-                                                </div>
-                                        </div>
-                                </div><!-- sectionHeading -->
-                                <div class="row sectionText">
-                                        <p><strong>Amazing!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
-                                        <p>I love sports!
                                         </p>
                                 </div><!-- sectionText -->
                                 <div class="windowwidth">click for window width</div>
@@ -109,6 +89,26 @@
                                 <div class="row sectionText">
                                         <p><strong>Open source for all!</strong> Love going to OSCON</p> 
                                         <p>Build amazing fun software!
+                                        </p>
+                                </div><!-- sectionText -->
+                                <div class="windowwidth">click for window width</div>
+                        </div><!-- panelWrap -->
+                        <div class="panelWrap" id="about">
+                                <div class="row sectionHeading">
+                                        <div class="col-md-3">
+                                                <img src="./images/softball.jpg">
+                                        </div>
+                                        <div class="col-md-9">
+                                                <div class="sectionTitle">
+                                                        Who am I?
+                                                </div>
+                                                <div class="sectionBar">
+                                                </div>
+                                        </div>
+                                </div><!-- sectionHeading -->
+                                <div class="row sectionText">
+                                        <p><strong>Amazing!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
+                                        <p>I love sports!
                                         </p>
                                 </div><!-- sectionText -->
                                 <div class="windowwidth">click for window width</div>
