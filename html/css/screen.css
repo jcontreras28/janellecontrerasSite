@@ -140,6 +140,19 @@ body {
       border: 5px solid #22a39f;
       border-radius: 5px;
       width: 96%; }
+      body .mainBodyWrap .panelWrap {
+        padding: 10px 10px; }
+        body .mainBodyWrap .panelWrap .sectionTitle {
+          margin-top: 50px;
+          font-size: 1.5em; }
+        body .mainBodyWrap .panelWrap .sectionBar {
+          border-radius: 5p;
+          padding: 10px;
+          width: 105%; }
+        body .mainBodyWrap .panelWrap .sectionText {
+          padding: 20px; }
+          body .mainBodyWrap .panelWrap .sectionText p {
+            font-size: 1.3 em; }
     body .mainNav {
       display: none; }
     body .sandWhich {
