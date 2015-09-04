@@ -27,8 +27,7 @@
                                         <li class="tabItem" id="lidream">Dream</li>
                                         <li class="tabItem" id="liabout">About</li>
                                 </ul>
-                                <div class="sandwhichNavItem">sand
-                                </div>
+                                <div><i class="fa fa-bars fa-3x menuSandwhich"></i></div>
                         </div><!-- mainNav -->
                         <div class="mobileNav">
                                 <ul>
