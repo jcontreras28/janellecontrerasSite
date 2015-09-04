@@ -11,6 +11,8 @@ body {
     background-color: #f3efe0;
     text-align: center;
     margin: 0px auto 20px; }
+    body .mainBodyWrap img {
+      width: 95%; }
     body .mainBodyWrap .panelWrap {
       display: none; }
       body .mainBodyWrap .panelWrap .sectionTitle {

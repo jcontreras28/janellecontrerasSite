@@ -32,7 +32,7 @@
                         <div class="panelWrap selected" id="skills">
                                 <div class="row sectionHeading">
                                         <div class="col-md-3">
-                                                <img src="./images/suncar.jpg" width="95%">
+                                                <img src="./images/suncar.jpg">
                                         </div>
                                         <div class="col-md-9">
                                                 <div class="sectionTitle">
@@ -56,7 +56,7 @@
                         <div class="panelWrap" id="about">
                                 <div class="row sectionHeading">
                                         <div class="col-xs-3">
-                                                <img src="./images/softball.jpg" width="95%">
+                                                <img src="./images/softball.jpg">
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
@@ -76,7 +76,7 @@
                         <div class="panelWrap" id="experience">
                                 <div class="row sectionHeading">
                                         <div class="col-xs-3">
-                                                <img src="./images/fishin.jpg" width="95%">
+                                                <img src="./images/fishin.jpg">
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
@@ -96,7 +96,7 @@
                         <div class="panelWrap" id="dream">
                                 <div class="row sectionHeading">
                                         <div class="col-xs-3">
-                                                <img src="./images/oscon.jpg" width="95%">
+                                                <img src="./images/oscon.jpg">
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
