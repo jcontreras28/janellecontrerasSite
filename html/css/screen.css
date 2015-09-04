@@ -57,7 +57,7 @@ body {
       body .mainBodyWrap .mainNav .menuItemSelected {
         background-color: #f3efe0;
         color: #22a39f;
-        padding-top: 0px; }
+        padding-top: 2px; }
   body .colorScheme {
     background-color: white;
     margin-top: 10px;
