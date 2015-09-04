@@ -22,10 +22,10 @@
                 <div class="mainBodyWrap">
                         <div class="mainNav">
                                 <ul>
-                                        <li class="skills menuItemSelected">Skills</li>
-                                        <li class="about">About</li>
-                                        <li class="experience">Work experience</li>
-                                        <li class="dream">Dream</li>
+                                        <li class="tabItem menuItemSelected" id="liskills">Skills</li>
+                                        <li class="tabItem" id="liabout">About</li>
+                                        <li class="tabItem" id="liexperience">Work experience</li>
+                                        <li class="tabItem" id="lidream">Dream</li>
                                 </ul>
                         </div><!-- mainNav -->
 
@@ -111,4 +111,12 @@
                         </div><!-- panelWrap -->
                 </div><!-- mainBodyWrap -->
         </body>
+
+        <script type="text/javascript">
+                $('.tabItem').click(function() {
+                        var theId = $(this).attr('id');
+                        alert("im clicked - "+theId);
+                });
+        </script>
+
 </html>
