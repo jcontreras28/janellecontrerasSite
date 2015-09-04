@@ -97,7 +97,7 @@ body {
           padding: 10px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; } }
-@media (min-width: 1px) and (max-width: 991px) {
+@media (min-width: 645px) and (max-width: 991px) {
   body {
     padding: 0 16px;
     margin: 10px auto; }
@@ -126,3 +126,15 @@ body {
           padding: 10px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; } }
+@media (min-width: 1px) and (max-width: 644px) {
+  body {
+    padding: 0 6px;
+    margin: 5px auto; }
+    body .mainBodyWrap {
+      border: 5px solid #22a39f;
+      border-radius: 5px;
+      width: 96%; }
+    body .mainNav {
+      display: none; }
+    body .sandWhich {
+      display: inline; } }

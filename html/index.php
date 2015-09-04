@@ -28,6 +28,14 @@
                                         <li class="tabItem" id="liabout">About</li>
                                 </ul>
                         </div><!-- mainNav -->
+                        <div class="mobileNav">
+                                <ul>
+                                        <li class="tabItem menuItemSelected" id="liskills">Skills</li>
+                                        <li class="tabItem" id="liexperience">Work experience</li>
+                                        <li class="tabItem" id="lidream">Dream</li>
+                                        <li class="tabItem" id="liabout">About</li>
+                                </ul>
+                        </div><!-- mainNav -->
 
                         <div class="panelWrap selected" id="skills">
                                 <div class="row sectionHeading">
