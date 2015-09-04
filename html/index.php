@@ -19,20 +19,6 @@
                 <link rel="stylesheet" href="css/screen.css">
         </head>
         <body>
-                <!--<div class="row colorScheme">
-                        <div class="col-xs-2 ruby">
-                        </div>
-                        <div class="col-xs-2 pink">
-                        </div>
-                        <div class="col-xs-2 tan">
-                        </div>
-                        <div class="col-xs-2 nude">
-                        </div>
-                        <div class="col-xs-2 brown">
-                        </div>
-                        <div class="col-xs-2 black">
-                        </div>
-                </div>-->
                 <div class="mainBodyWrap">
                         <div class="mainNav">
                                 <ul>
@@ -41,7 +27,7 @@
                                         <li>Work experience</li>
                                         <li>Dream</li>
                                 </ul>
-                        </div>
+                        </div><!-- mainNav -->
 
                         <div class="panelWrap">
                                 <div class="row sectionHeading">
@@ -55,7 +41,7 @@
                                                 <div class="sectionBar">
                                                 </div>
                                         </div>
-                                </div>
+                                </div><!-- sectionHeading -->
                                 <div class="row sectionText">
                                         <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
                                         <p>For example, I built this site as an Amazon web server with Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
@@ -64,8 +50,8 @@
                                                 This script then goes and grabs the current site content.  Pretty basic setup that we use currently on most projects within my current company.
                                                 This project also uses sass for the css.  The sass code is compiled using codekit.
                                         </p>
-                                </div>
-                        </div>
-                </div>
+                                </div><!-- sectionText -->
+                        </div><!-- panelWrap -->
+                </div><!-- mainBodyWrap -->
         </body>
 </html>
