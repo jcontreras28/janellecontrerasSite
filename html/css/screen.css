@@ -43,7 +43,13 @@ body {
         background-color: #f3efe0;
         color: #22a39f; }
     body .mainBodyWrap .mobileNav {
-      display: none; }
+      display: none;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      background-color: #434242;
+      color: white;
+      width: 100%; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
@@ -159,7 +165,7 @@ body {
           padding: 20px; }
           body .mainBodyWrap .panelWrap .sectionText p {
             font-size: 1.3 em; }
-    body .mainNavItems {
+    body .mainNav {
       display: none; }
-    body .sandWhich {
+    body .mobileNav {
       display: inline; } }
