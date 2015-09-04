@@ -117,17 +117,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/html\/images\/logos\/logo-ubuntu_st_no®-black_orange-hex.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/html\/images\/logos\/logo-ubuntu_st_no®-black_orange-hex.png",
-		"outputAbbreviatedPath": "\/html\/images\/logos\/logo-ubuntu_st_no®-black_orange-hex.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/html\/images\/logos\/oscon2014_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -139,6 +128,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/logos\/PHP-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20466,
+		"inputAbbreviatedPath": "\/html\/images\/logos\/PHP-logo.png",
+		"outputAbbreviatedPath": "\/html\/images\/logos\/PHP-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/logos\/php_mysql_logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -146,6 +146,28 @@
 		"initialSize": 13203,
 		"inputAbbreviatedPath": "\/html\/images\/logos\/php_mysql_logo.jpg",
 		"outputAbbreviatedPath": "\/html\/images\/logos\/php_mysql_logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/logos\/sass.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10633,
+		"inputAbbreviatedPath": "\/html\/images\/logos\/sass.png",
+		"outputAbbreviatedPath": "\/html\/images\/logos\/sass.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/html\/images\/logos\/ubuntu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33778,
+		"inputAbbreviatedPath": "\/html\/images\/logos\/ubuntu.png",
+		"outputAbbreviatedPath": "\/html\/images\/logos\/ubuntu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
