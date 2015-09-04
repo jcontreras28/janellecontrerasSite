@@ -61,7 +61,8 @@ body {
         background-color: #434242;
         width: 50%;
         margin-left: 50%;
-        padding-right: 5px; }
+        padding-right: 5px;
+        border-radius: 0px 0px 0px 5px; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
