@@ -43,7 +43,7 @@ body {
         background-color: #f3efe0;
         color: #22a39f; }
 
-@media (min-width: 1125px) and (max-width: 600000px) {
+@media (min-width: 1184px) and (max-width: 600000px) {
   body {
     padding: 0 16px;
     margin: 10px auto; }
@@ -70,7 +70,7 @@ body {
           padding: 20px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; } }
-@media (min-width: 992px) and (max-width: 1124px) {
+@media (min-width: 992px) and (max-width: 1183px) {
   body {
     padding: 0 16px;
     margin: 10px auto; }
@@ -81,7 +81,7 @@ body {
       body .mainBodyWrap .panelWrap {
         padding: 10px 10px; }
         body .mainBodyWrap .panelWrap .sectionTitle {
-          margin-top: 100px;
+          margin-top: 50px;
           font-size: 1.5em; }
         body .mainBodyWrap .panelWrap .sectionBar {
           border-radius: 5p;
