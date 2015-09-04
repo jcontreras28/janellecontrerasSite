@@ -146,6 +146,8 @@ body {
       width: 96%; }
       body .mainBodyWrap .panelWrap {
         padding: 10px 10px; }
+        body .mainBodyWrap .panelWrap img {
+          width: 50%; }
         body .mainBodyWrap .panelWrap .sectionTitle {
           margin-top: 50px;
           font-size: 1.5em; }
