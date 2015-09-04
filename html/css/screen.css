@@ -35,14 +35,16 @@ body {
       background-color: #434242;
       color: white;
       width: 100%; }
-      body .mainBodyWrap .mainNav li {
-        display: inline;
-        cursor: pointer; }
-        body .mainBodyWrap .mainNav li:hover {
-          bakcground-color: #22a39f; }
-      body .mainBodyWrap .mainNav .menuItemSelected {
-        background-color: #f3efe0;
-        color: #22a39f; }
+      body .mainBodyWrap .mainNav ul {
+        padding-left: 0px; }
+        body .mainBodyWrap .mainNav ul li {
+          display: inline;
+          cursor: pointer; }
+          body .mainBodyWrap .mainNav ul li:hover {
+            bakcground-color: #22a39f; }
+        body .mainBodyWrap .mainNav ul .menuItemSelected {
+          background-color: #f3efe0;
+          color: #22a39f; }
     body .mainBodyWrap .mobileNav {
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
