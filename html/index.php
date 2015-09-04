@@ -55,10 +55,10 @@
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="about">
                                 <div class="row sectionHeading">
-                                        <div class="col-xs-3">
+                                        <div class="col-md-3">
                                                 <img src="./images/softball.jpg">
                                         </div>
-                                        <div class="col-xs-9">
+                                        <div class="col-md-9">
                                                 <div class="sectionTitle">
                                                         Who am I?
                                                 </div>
@@ -75,10 +75,10 @@
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="experience">
                                 <div class="row sectionHeading">
-                                        <div class="col-xs-3">
+                                        <div class="col-md-3">
                                                 <img src="./images/fishin.jpg">
                                         </div>
-                                        <div class="col-xs-9">
+                                        <div class="col-md-9">
                                                 <div class="sectionTitle">
                                                         Where have I worked?
                                                 </div>
@@ -95,10 +95,10 @@
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="dream">
                                 <div class="row sectionHeading">
-                                        <div class="col-xs-3">
+                                        <div class="col-md-3">
                                                 <img src="./images/oscon.jpg">
                                         </div>
-                                        <div class="col-xs-9">
+                                        <div class="col-md-9">
                                                 <div class="sectionTitle">
                                                         What is my dream?
                                                 </div>
