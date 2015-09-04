@@ -34,7 +34,7 @@
                                         <div class="col-md-3">
                                                 <img src="./images/suncar.jpg">
                                         </div>
-                                        <div class="col-md-9">
+                                        <div class="col-md-9 stuffToCenter">
                                                 <div class="sectionTitle">
                                                         What can I do?
                                                 </div>
