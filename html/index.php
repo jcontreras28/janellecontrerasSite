@@ -76,7 +76,7 @@
                         <div class="panelWrap" id="experience">
                                 <div class="row sectionHeading">
                                         <div class="col-xs-3">
-                                                <img src="./images/oscon.jpg" width="95%">
+                                                <img src="./images/fishing.jpg" width="95%">
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
@@ -87,7 +87,7 @@
                                         </div>
                                 </div><!-- sectionHeading -->
                                 <div class="row sectionText">
-                                        <p><strong>Employment</strong></p> 
+                                        <p><strong>WAIT - iss this work?</strong></p> 
                                         <p>This will look different
                                         </p>
                                 </div><!-- sectionText -->
@@ -96,7 +96,7 @@
                         <div class="panelWrap" id="dream">
                                 <div class="row sectionHeading">
                                         <div class="col-xs-3">
-                                                <img src="./images/suncar.jpg" width="95%">
+                                                <img src="./images/oscon.jpg" width="95%">
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
@@ -107,7 +107,7 @@
                                         </div>
                                 </div><!-- sectionHeading -->
                                 <div class="row sectionText">
-                                        <p><strong>Not sure!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
+                                        <p><strong>Open source for all!</strong>Love going to OSCON</p> 
                                         <p>Build amazing fun software!
                                         </p>
                                 </div><!-- sectionText -->
