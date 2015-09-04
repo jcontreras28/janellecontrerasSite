@@ -33,7 +33,7 @@
                         <div class="col-xs-2 black">
                         </div>
                 </div>-->
-                <div class="bodyWrap">
+                <div class="mainBodyWrap">
                         <div class="mainNav">
                                 <ul>
                                         <li>Skills</li>
@@ -42,9 +42,8 @@
                                         <li>Dream</li>
                                 </ul>
                         </div>
-                        <div class="mainBodyWrap">
-                                
 
+                        <div class="panelWrap">
                                 <div class="row sectionHeading">
                                         <div class="col-md-3">
                                                 <img src="./images/suncar.jpg" width="95%">
