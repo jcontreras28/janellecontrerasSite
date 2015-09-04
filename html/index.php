@@ -132,7 +132,7 @@
                         newPanel.addClass("selected");
                 });
                 $('.windowwidth').click(function(){
-                        alert("width = "+$(window).width());
+                        alert("width= "+$(window).width());
                 });
         </script>
 
