@@ -115,7 +115,9 @@
         <script type="text/javascript">
                 $('.tabItem').click(function() {
                         var theId = $(this).attr('id');
+                        theId = theId.replace("li", "");
                         alert("im clicked - "+theId);
+
                 });
         </script>
 
