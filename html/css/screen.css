@@ -53,6 +53,9 @@ body {
         padding: 20px; }
         body .mainBodyWrap .mainNav li:hover {
           bakcground-color: #22a39f; }
+      body .mainBodyWrap .mainNav .menuItemSelected {
+        background-color: #f3efe0;
+        color: #22a39f; }
   body .colorScheme {
     background-color: white;
     margin-top: 10px;
