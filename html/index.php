@@ -34,6 +34,14 @@
                         </div>
                 </div>-->
                 <div class="mainBodyWrap">
+                        <div class="mainNav">
+                                <ul>
+                                        <li>Skills</li>
+                                        <li>About</li>
+                                        <li>Work experience</li>
+                                        <li>Dream</li>
+                                </ul>
+                        </div>
 
                         <div class="row sectionHeading">
                                 <div class="col-md-3">
