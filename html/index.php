@@ -80,14 +80,14 @@
                                         </div>
                                         <div class="col-md-9">
                                                 <div class="sectionTitle">
-                                                        Where have I worked?
+                                                        Is this work?
                                                 </div>
                                                 <div class="sectionBar">
                                                 </div>
                                         </div>
                                 </div><!-- sectionHeading -->
                                 <div class="row sectionText">
-                                        <p><strong>WAIT - is this work?</strong></p> 
+                                        <p><strong>Employment history</strong></p> 
                                         <p>This will look different
                                         </p>
                                 </div><!-- sectionText -->
