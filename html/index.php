@@ -62,7 +62,7 @@
                                 </div><!-- sectionText -->
                                 <div class="row">
                                         <div class="col-md-3">
-                                                <img src="./images/logos/PHP-log.png"/>
+                                                <img src="./images/logos/PHP-logo.png"/>
                                         </div>
                                         <div class="col-md-3">
                                                 <img src="./images/logos/apache-logo-v2.png"/>
