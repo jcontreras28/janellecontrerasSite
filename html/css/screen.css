@@ -15,23 +15,17 @@ body {
       width: 95%; }
     body .mainBodyWrap .panelWrap {
       display: none; }
-      body .mainBodyWrap .panelWrap .sectionHeading {
-        display: table;
-        position: absolute; }
-        body .mainBodyWrap .panelWrap .sectionHeading .makeTableDiv {
-          display: table-cell;
-          vertical-align: bottom; }
-          body .mainBodyWrap .panelWrap .sectionHeading .makeTableDiv .sectionTitle {
-            text-align: left;
-            font-style: italic;
-            color: #22a39f; }
-          body .mainBodyWrap .panelWrap .sectionHeading .makeTableDiv .sectionBar {
-            background-color: #434242;
-            margin-left: 0px; }
-          body .mainBodyWrap .panelWrap .sectionHeading .makeTableDiv .sectionText {
-            text-align: left; }
-            body .mainBodyWrap .panelWrap .sectionHeading .makeTableDiv .sectionText p {
-              color: #727878; }
+      body .mainBodyWrap .panelWrap .sectionTitle {
+        text-align: left;
+        font-style: italic;
+        color: #22a39f; }
+      body .mainBodyWrap .panelWrap .sectionBar {
+        background-color: #434242;
+        margin-left: 0px; }
+      body .mainBodyWrap .panelWrap .sectionText {
+        text-align: left; }
+        body .mainBodyWrap .panelWrap .sectionText p {
+          color: #727878; }
     body .mainBodyWrap .selected {
       display: block; }
     body .mainBodyWrap .mainNav {
