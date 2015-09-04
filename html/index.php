@@ -52,7 +52,7 @@
                                         </p>
                                 </div><!-- sectionText -->
                         </div><!-- panelWrap -->
-                        <div class="panelWrap notselected" id="about">
+                        <div class="panelWrap" id="about">
                                 <div class="row sectionHeading">
                                         <div class="col-md-3">
                                                 <img src="./images/suncar.jpg" width="95%">
@@ -71,7 +71,7 @@
                                         </p>
                                 </div><!-- sectionText -->
                         </div><!-- panelWrap -->
-                        <div class="panelWrap notselected" id="experience">
+                        <div class="panelWrap" id="experience">
                                 <div class="row sectionHeading">
                                         <div class="col-md-3">
                                                 <img src="./images/suncar.jpg" width="95%">
@@ -90,7 +90,7 @@
                                         </p>
                                 </div><!-- sectionText -->
                         </div><!-- panelWrap -->
-                        <div class="panelWrap notselected" id="dream">
+                        <div class="panelWrap" id="dream">
                                 <div class="row sectionHeading">
                                         <div class="col-md-3">
                                                 <img src="./images/suncar.jpg" width="95%">
@@ -116,8 +116,17 @@
                 $('.tabItem').click(function() {
                         var theId = $(this).attr('id');
                         theId = theId.replace("li", "");
-                        alert("im clicked - "+theId);
 
+                        var oldTab = $('.menuItemSelected');
+                        oldTab.removeClass('menuItemSelected');
+
+                        $(this).addClass("menuItemSelected");
+                        
+                        var oldPanel = $('.selected')
+                        oldPanel.removeClass("selected")
+                        
+                        var newPanel = $('#' + theId);
+                        newPanel.addClass(".selected");
                 });
         </script>
 
