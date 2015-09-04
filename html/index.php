@@ -30,17 +30,21 @@
                         </div><!-- mainNav -->
 
                         <div class="panelWrap selected" id="skills">
-                                <div class="row sectionHeading">
-                                        <div class="col-md-3">
-                                                <img src="./images/suncar.jpg">
-                                        </div>
-                                        <div class="col-md-9">
-                                                <div class="sectionTitle">
-                                                        What can I do?
-                                                </div>
-                                                <div class="sectionBar">
-                                                </div>
-                                        </div>
+                                <div class="sectionHeading">
+                                        <div class="makeTableDiv">
+                                                <div class="tableContents">
+                                                        <div class="col-md-3 titlePic">
+                                                                <img src="./images/suncar.jpg">
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                                <div class="sectionTitle">
+                                                                        What can I do?
+                                                                </div>
+                                                                <div class="sectionBar">
+                                                                </div>
+                                                        </div>
+                                                </div><!-- tableContents -->
+                                        </div><!-- makeTableDiv -->
                                 </div><!-- sectionHeading -->
                                 <div class="row sectionText">
                                         <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
