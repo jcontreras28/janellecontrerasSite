@@ -51,6 +51,7 @@
                                                 This project also uses sass for the css.  The sass code is compiled using codekit.
                                         </p>
                                 </div><!-- sectionText -->
+                                <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="about">
                                 <div class="row sectionHeading">
@@ -70,6 +71,7 @@
                                         <p>I love sports!
                                         </p>
                                 </div><!-- sectionText -->
+                                <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="experience">
                                 <div class="row sectionHeading">
@@ -89,6 +91,7 @@
                                         <p>This will look different
                                         </p>
                                 </div><!-- sectionText -->
+                                <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="dream">
                                 <div class="row sectionHeading">
@@ -108,9 +111,9 @@
                                         <p>Build amazing fun software!
                                         </p>
                                 </div><!-- sectionText -->
+                                <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                 </div><!-- mainBodyWrap -->
-                <div class="windowwidth">click for window width</div>
         </body>
 
         <script type="text/javascript">
