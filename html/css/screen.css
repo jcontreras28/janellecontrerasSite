@@ -132,7 +132,7 @@ body {
           padding: 10px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; }
-        body .mainBodyWrap .mainNav .sandwhichNavItem {
+        body .mainBodyWrap .mainNav .mobileSandwhich {
           display: none; }
       body .mainBodyWrap .mobileNav {
         display: none; } }
