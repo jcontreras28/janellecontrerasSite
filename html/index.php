@@ -143,9 +143,16 @@
                         var newPanel = $('#' + theId);
                         newPanel.addClass("selected");
                 });
+
                 $('.windowwidth').click(function(){
                         alert("width= "+$(window).width());
                 });
+
+                $('.menuSandwhich').click(function() {
+                        $('.mobileItems').slideToggle(350);
+                });
+
+                
         </script>
 
 </html>
