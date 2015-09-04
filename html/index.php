@@ -32,7 +32,7 @@
                         <div class="panelWrap selected" id="skills">
                                 <div class="sectionHeading">
                                         <div class="makeTableDiv">
-                                                <div class="tableContents">
+                                                <div class="row tableContents">
                                                         <div class="col-md-3 titlePic">
                                                                 <img src="./images/suncar.jpg">
                                                         </div>
