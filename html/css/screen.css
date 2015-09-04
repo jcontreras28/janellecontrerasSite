@@ -138,8 +138,6 @@ body {
           padding: 10px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; }
-        body .mainBodyWrap .mainNav .mobileSandwhich {
-          display: none; }
       body .mainBodyWrap .mobileNav {
         display: none; } }
 @media (min-width: 1px) and (max-width: 644px) {
