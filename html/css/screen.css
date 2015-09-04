@@ -49,6 +49,8 @@ body {
       background-color: #434242;
       color: white;
       width: 100%; }
+      body .mainBodyWrap .mobileNav .sandMenu {
+        background-color: #434242; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
