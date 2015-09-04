@@ -22,13 +22,13 @@ body {
       body .mainBodyWrap .panelWrap .sectionTitle {
         margin-top: 100px;
         text-align: left;
-        font-size: 2.5em;
+        font-size: 1.5em;
         font-style: italic;
         color: #22a39f; }
       body .mainBodyWrap .panelWrap .sectionBar {
         background-color: #434242;
         border-radius: 5p;
-        padding: 20px;
+        padding: 10px;
         width: 105%;
         margin-left: 0px; }
       body .mainBodyWrap .panelWrap .sectionText {
@@ -57,7 +57,7 @@ body {
       body .mainBodyWrap .mainNav .menuItemSelected {
         background-color: #f3efe0;
         color: #22a39f;
-        padding-top: 1px; }
+        padding-top: 0px; }
   body .colorScheme {
     background-color: white;
     margin-top: 10px;
