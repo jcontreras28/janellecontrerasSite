@@ -33,7 +33,7 @@
                         <div class="col-xs-2 black">
                         </div>
                 </div>-->
-                <div class="mainBodyWrap">
+                <div class="bodyWrap">
                         <div class="mainNav">
                                 <ul>
                                         <li>Skills</li>
@@ -42,27 +42,30 @@
                                         <li>Dream</li>
                                 </ul>
                         </div>
+                        <div class="mainBodyWrap">
+                                
 
-                        <div class="row sectionHeading">
-                                <div class="col-md-3">
-                                        <img src="./images/suncar.jpg" width="95%">
-                                </div>
-                                <div class="col-md-9">
-                                        <div class="sectionTitle">
-                                                What can I do?
+                                <div class="row sectionHeading">
+                                        <div class="col-md-3">
+                                                <img src="./images/suncar.jpg" width="95%">
                                         </div>
-                                        <div class="sectionBar">
+                                        <div class="col-md-9">
+                                                <div class="sectionTitle">
+                                                        What can I do?
+                                                </div>
+                                                <div class="sectionBar">
+                                                </div>
                                         </div>
                                 </div>
-                        </div>
-                        <div class="row sectionText">
-                                <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
-                                <p>For example, I built this site as an Amazon web server with Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
-                                        I pointed it to my domain name using Route 53.
-                                        The content is stored in a repo up on github which has a webhook to call a deploy script on my webserver whenever I push new content from my local machine.  
-                                        This script then goes and grabs the current site content.  Pretty basic setup that we use currently on most projects within my current company.
-                                        This project also uses sass for the css.  The sass code is compiled using codekit.
-                                </p>
+                                <div class="row sectionText">
+                                        <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
+                                        <p>For example, I built this site as an Amazon web server with Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
+                                                I pointed it to my domain name using Route 53.
+                                                The content is stored in a repo up on github which has a webhook to call a deploy script on my webserver whenever I push new content from my local machine.  
+                                                This script then goes and grabs the current site content.  Pretty basic setup that we use currently on most projects within my current company.
+                                                This project also uses sass for the css.  The sass code is compiled using codekit.
+                                        </p>
+                                </div>
                         </div>
                 </div>
         </body>
