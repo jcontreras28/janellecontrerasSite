@@ -29,7 +29,7 @@
                                 </ul>
                         </div><!-- mainNav -->
                         <div class="mobileNav">
-                                <div><i class="fa fa-bars fa-3x menuSandwhich"></i></div>
+                                <div style="background-color:black"><i class="fa fa-bars fa-3x menuSandwhich"></i></div>
                                 <div class="mobileItems" style="display:none">
                                         <div class="tabItem menuItemSelected" id="liskills">Skills</div>
                                         <div class="tabItem" id="liexperience">Work experience</div>
