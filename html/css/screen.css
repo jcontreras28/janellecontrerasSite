@@ -57,9 +57,11 @@ body {
         padding-right: 10px;
         cursor: pointer; }
       body .mainBodyWrap .mobileNav .mobileItems {
+        border-top: 2px solid #22a39f;
         background-color: #434242;
         width: 50%;
-        margin-left: 50%; }
+        margin-left: 50%;
+        padding-left: 5px; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
