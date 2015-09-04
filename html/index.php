@@ -117,11 +117,14 @@
                         var theId = $(this).attr('id');
                         theId = theId.replace("li", "");
 
+                        // updating menu
                         var oldTab = $('menuItemSelected');
                         oldTab.removeClass('menuItemSelected');
 
                         $(this).addClass("menuItemSelected");
-                        var oldPanel = $('selected')
+
+                        // updating page
+                        var oldPanel = $('.selected')
                         oldPanel.removeClass("selected")
                         
                         var newPanel = $('#' + theId);
