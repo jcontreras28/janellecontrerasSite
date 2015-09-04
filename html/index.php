@@ -56,7 +56,7 @@
                         <div class="panelWrap" id="about">
                                 <div class="row sectionHeading">
                                         <div class="col-xs-3">
-                                                <img src="./images/sofball.jpg" width="95%">
+                                                <img src="./images/softball.jpg" width="95%">
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
