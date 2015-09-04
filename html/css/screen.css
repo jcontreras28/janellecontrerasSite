@@ -51,7 +51,7 @@ body {
       width: 100%; }
       body .mainBodyWrap .mobileNav .sandMenu {
         background-color: #434242;
-        margin-right: 5px; }
+        padding-right: 10px; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
