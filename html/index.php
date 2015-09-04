@@ -80,14 +80,14 @@
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
-                                                        Who have I helped?
+                                                        Where have I worked?
                                                 </div>
                                                 <div class="sectionBar">
                                                 </div>
                                         </div>
                                 </div><!-- sectionHeading -->
                                 <div class="row sectionText">
-                                        <p><strong>WAIT - iss this work?</strong></p> 
+                                        <p><strong>WAIT - is this work?</strong></p> 
                                         <p>This will look different
                                         </p>
                                 </div><!-- sectionText -->
