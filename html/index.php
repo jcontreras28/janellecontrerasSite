@@ -22,14 +22,14 @@
                 <div class="mainBodyWrap">
                         <div class="mainNav">
                                 <ul>
-                                        <li>Skills</li>
-                                        <li>About</li>
-                                        <li>Work experience</li>
-                                        <li>Dream</li>
+                                        <li class="skills menuItemSelected">Skills</li>
+                                        <li class="about">About</li>
+                                        <li class="experience">Work experience</li>
+                                        <li class="dream">Dream</li>
                                 </ul>
                         </div><!-- mainNav -->
 
-                        <div class="panelWrap">
+                        <div class="panelWrap selected" id="skills">
                                 <div class="row sectionHeading">
                                         <div class="col-md-3">
                                                 <img src="./images/suncar.jpg" width="95%">
@@ -49,6 +49,63 @@
                                                 The content is stored in a repo up on github which has a webhook to call a deploy script on my webserver whenever I push new content from my local machine.  
                                                 This script then goes and grabs the current site content.  Pretty basic setup that we use currently on most projects within my current company.
                                                 This project also uses sass for the css.  The sass code is compiled using codekit.
+                                        </p>
+                                </div><!-- sectionText -->
+                        </div><!-- panelWrap -->
+                        <div class="panelWrap notselected" id="about">
+                                <div class="row sectionHeading">
+                                        <div class="col-md-3">
+                                                <img src="./images/suncar.jpg" width="95%">
+                                        </div>
+                                        <div class="col-md-9">
+                                                <div class="sectionTitle">
+                                                        Who am I?
+                                                </div>
+                                                <div class="sectionBar">
+                                                </div>
+                                        </div>
+                                </div><!-- sectionHeading -->
+                                <div class="row sectionText">
+                                        <p><strong>Amazing!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
+                                        <p>I love sports!
+                                        </p>
+                                </div><!-- sectionText -->
+                        </div><!-- panelWrap -->
+                        <div class="panelWrap notselected" id="experience">
+                                <div class="row sectionHeading">
+                                        <div class="col-md-3">
+                                                <img src="./images/suncar.jpg" width="95%">
+                                        </div>
+                                        <div class="col-md-9">
+                                                <div class="sectionTitle">
+                                                        Who have I helped?
+                                                </div>
+                                                <div class="sectionBar">
+                                                </div>
+                                        </div>
+                                </div><!-- sectionHeading -->
+                                <div class="row sectionText">
+                                        <p><strong>Employment</strong></p> 
+                                        <p>This will look different
+                                        </p>
+                                </div><!-- sectionText -->
+                        </div><!-- panelWrap -->
+                        <div class="panelWrap notselected" id="dream">
+                                <div class="row sectionHeading">
+                                        <div class="col-md-3">
+                                                <img src="./images/suncar.jpg" width="95%">
+                                        </div>
+                                        <div class="col-md-9">
+                                                <div class="sectionTitle">
+                                                        What is my dream?
+                                                </div>
+                                                <div class="sectionBar">
+                                                </div>
+                                        </div>
+                                </div><!-- sectionHeading -->
+                                <div class="row sectionText">
+                                        <p><strong>Not sure!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
+                                        <p>Build amazing fun software!
                                         </p>
                                 </div><!-- sectionText -->
                         </div><!-- panelWrap -->
