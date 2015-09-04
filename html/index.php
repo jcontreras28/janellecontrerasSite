@@ -76,7 +76,7 @@
                         <div class="panelWrap" id="experience">
                                 <div class="row sectionHeading">
                                         <div class="col-xs-3">
-                                                <img src="./images/fishing.jpg" width="95%">
+                                                <img src="./images/fishin.jpg" width="95%">
                                         </div>
                                         <div class="col-xs-9">
                                                 <div class="sectionTitle">
@@ -107,7 +107,7 @@
                                         </div>
                                 </div><!-- sectionHeading -->
                                 <div class="row sectionText">
-                                        <p><strong>Open source for all!</strong>Love going to OSCON</p> 
+                                        <p><strong>Open source for all!</strong> Love going to OSCON</p> 
                                         <p>Build amazing fun software!
                                         </p>
                                 </div><!-- sectionText -->
