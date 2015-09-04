@@ -68,7 +68,7 @@ body {
           padding: 20px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; } }
-@media (min-width: 200px) and (max-width: 1124px) {
+@media (min-width: 784px) and (max-width: 1124px) {
   body {
     padding: 0 16px;
     margin: 10px auto; }
@@ -78,6 +78,36 @@ body {
       width: 70%; }
       body .mainBodyWrap .panelWrap {
         padding: 10px 10px; }
+        body .mainBodyWrap .panelWrap .sectionTitle {
+          margin-top: 100px;
+          font-size: 1.5em; }
+        body .mainBodyWrap .panelWrap .sectionBar {
+          border-radius: 5p;
+          padding: 10px;
+          width: 105%; }
+        body .mainBodyWrap .panelWrap .sectionText {
+          padding: 20px; }
+          body .mainBodyWrap .panelWrap .sectionText p {
+            font-size: 1.3 em; }
+      body .mainBodyWrap .mainNav {
+        font-size: 1.4em; }
+        body .mainBodyWrap .mainNav li {
+          padding: 10px; }
+        body .mainBodyWrap .mainNav .menuItemSelected {
+          padding-top: 2px; } }
+@media (min-width: 1px) and (max-width: 783px) {
+  body {
+    padding: 0 16px;
+    margin: 10px auto; }
+    body .mainBodyWrap {
+      border: 15px solid #22a39f;
+      border-radius: 10px;
+      width: 70%; }
+      body .mainBodyWrap .panelWrap {
+        padding: 10px 10px; }
+        body .mainBodyWrap .panelWrap img {
+          width: 50%;
+          margin-left: 25%; }
         body .mainBodyWrap .panelWrap .sectionTitle {
           margin-top: 100px;
           font-size: 1.5em; }
