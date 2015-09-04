@@ -21,12 +21,14 @@
         <body>
                 <div class="mainBodyWrap">
                         <div class="mainNav">
-                                <ul>
+                                <ul class="mainNavItems">
                                         <li class="tabItem menuItemSelected" id="liskills">Skills</li>
                                         <li class="tabItem" id="liexperience">Work experience</li>
                                         <li class="tabItem" id="lidream">Dream</li>
                                         <li class="tabItem" id="liabout">About</li>
                                 </ul>
+                                <div class="sandwhichNavItem">sand
+                                </div>
                         </div><!-- mainNav -->
                         <div class="mobileNav">
                                 <ul>
