@@ -118,7 +118,7 @@
                         theId = theId.replace("li", "");
 
                         // updating menu
-                        var oldTab = $('menuItemSelected');
+                        var oldTab = $('.menuItemSelected');
                         oldTab.removeClass('menuItemSelected');
 
                         $(this).addClass("menuItemSelected");
