@@ -60,26 +60,6 @@
                                                 This project also uses sass for the css.  The sass code is compiled using codekit.
                                         </p>
                                 </div><!-- sectionText -->
-                                <div class="windowwidth">click for window width</div>
-                        </div><!-- panelWrap -->
-                        <div class="panelWrap" id="experience">
-                                <div class="row sectionHeading">
-                                        <div class="col-md-3">
-                                                <img src="./images/fishin.jpg">
-                                        </div>
-                                        <div class="col-md-9">
-                                                <div class="sectionTitle">
-                                                        Is this work?
-                                                </div>
-                                                <div class="sectionBar">
-                                                </div>
-                                        </div>
-                                </div><!-- sectionHeading -->
-                                <div class="row sectionText">
-                                        <p><strong>Employment history</strong></p> 
-                                        <p>This will look different
-                                        </p>
-                                </div><!-- sectionText -->
                                 <div class="row">
                                         <div class="col-md-3">
                                                 <img src="./images/logos/PHP-log.png"/>
@@ -108,6 +88,27 @@
                                                 <img src="./images/logos/ubuntu.png"/>
                                         </div>
                                 </div>
+                                <div class="windowwidth">click for window width</div>
+                        </div><!-- panelWrap -->
+                        <div class="panelWrap" id="experience">
+                                <div class="row sectionHeading">
+                                        <div class="col-md-3">
+                                                <img src="./images/fishin.jpg">
+                                        </div>
+                                        <div class="col-md-9">
+                                                <div class="sectionTitle">
+                                                        Is this work?
+                                                </div>
+                                                <div class="sectionBar">
+                                                </div>
+                                        </div>
+                                </div><!-- sectionHeading -->
+                                <div class="row sectionText">
+                                        <p><strong>Employment history</strong></p> 
+                                        <p>This will look different
+                                        </p>
+                                </div><!-- sectionText -->
+                                
                                 <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="dream">
