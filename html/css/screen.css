@@ -56,6 +56,8 @@ body {
         background-color: #434242;
         padding-right: 10px;
         cursor: pointer; }
+      body .mainBodyWrap .mobileNav .mobileItems {
+        background-color: #434242; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
