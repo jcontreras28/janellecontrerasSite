@@ -110,6 +110,7 @@
                                 </div><!-- sectionText -->
                         </div><!-- panelWrap -->
                 </div><!-- mainBodyWrap -->
+                <div class="windowwidth">click for window width</div>
         </body>
 
         <script type="text/javascript">
@@ -129,6 +130,9 @@
                         
                         var newPanel = $('#' + theId);
                         newPanel.addClass("selected");
+                });
+                $('.windowwidth').click(function(){
+                        alert("width = "+$(window).width());
                 });
         </script>
 
