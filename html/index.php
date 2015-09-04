@@ -80,6 +80,34 @@
                                         <p>This will look different
                                         </p>
                                 </div><!-- sectionText -->
+                                <div class="row">
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/PHP-log.png"/>
+                                        </div>
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/apache-logo-v2.png"/>
+                                        </div>
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/codekit-logo-dark@2x.png"/>
+                                        </div>
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/github-logo.png"/>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/oscon2014_logo.png"/>
+                                        </div>
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/php_mysql_logo.jpg"/>
+                                        </div>
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/sass.png"/>
+                                        </div>
+                                        <div class="col-md-3">
+                                                <img src="./images/logos/ubuntu.png"/>
+                                        </div>
+                                </div>
                                 <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="dream">
@@ -152,7 +180,7 @@
                         $('.mobileItems').slideToggle(350);
                 });
 
-                
+
         </script>
 
 </html>
