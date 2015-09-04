@@ -43,7 +43,6 @@ body {
         background-color: #f3efe0;
         color: #22a39f; }
     body .mainBodyWrap .mobileNav {
-      display: none;
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
       text-align: center;
