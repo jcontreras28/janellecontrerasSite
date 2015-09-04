@@ -70,7 +70,7 @@ body {
           padding: 20px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; } }
-@media (min-width: 784px) and (max-width: 1124px) {
+@media (min-width: 992px) and (max-width: 1124px) {
   body {
     padding: 0 16px;
     margin: 10px auto; }
@@ -97,7 +97,7 @@ body {
           padding: 10px; }
         body .mainBodyWrap .mainNav .menuItemSelected {
           padding-top: 2px; } }
-@media (min-width: 1px) and (max-width: 783px) {
+@media (min-width: 1px) and (max-width: 991px) {
   body {
     padding: 0 16px;
     margin: 10px auto; }
