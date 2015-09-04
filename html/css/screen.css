@@ -42,6 +42,8 @@ body {
       body .mainBodyWrap .mainNav .menuItemSelected {
         background-color: #f3efe0;
         color: #22a39f; }
+    body .mainBodyWrap .mobileNav {
+      display: none; }
 
 @media (min-width: 1184px) and (max-width: 600000px) {
   body {
