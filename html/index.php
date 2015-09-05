@@ -61,16 +61,13 @@
                                         </p>
                                 </div><!-- sectionText -->
                                 <div class="row logos">
-                                        <div class="col-md-3">
-                                                <img src="./images/logos/PHP-logo.png"/>
-                                        </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                                 <img src="./images/logos/apache-logo-v2.png"/>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                                 <img src="./images/logos/codekit-logo-dark@2x.png"/>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                                 <img src="./images/logos/github-logo.png"/>
                                         </div>
                                 </div>
