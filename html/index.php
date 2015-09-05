@@ -65,7 +65,7 @@
                                                 <img src="./images/logos/apache-logo-v2.png"/>
                                         </div>
                                         <div class="col-md-4">
-                                                <img src="./images/logos/php_mysql_logo.jpg"/>
+                                                <img src="./images/logos/php_mysql_logo.jpg" style="width:80%"/>
                                                 
                                         </div>
                                         <div class="col-md-4">
