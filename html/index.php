@@ -65,7 +65,8 @@
                                                 <img src="./images/logos/apache-logo-v2.png"/>
                                         </div>
                                         <div class="col-md-4">
-                                                <img src="./images/logos/codekit-logo-dark@2x.png"/>
+                                                <img src="./images/logos/php_mysql_logo.jpg"/>
+                                                
                                         </div>
                                         <div class="col-md-4">
                                                 <img src="./images/logos/github-logo.png"/>
@@ -76,7 +77,7 @@
                                                 <img src="./images/logos/oscon2014_logo.png"/>
                                         </div>
                                         <div class="col-md-3">
-                                                <img src="./images/logos/php_mysql_logo.jpg"/>
+                                                <img src="./images/logos/codekit-logo-dark@2x.png"/>
                                         </div>
                                         <div class="col-md-3">
                                                 <img src="./images/logos/sass.png"/>
