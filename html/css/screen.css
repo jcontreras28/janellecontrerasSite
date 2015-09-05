@@ -26,6 +26,8 @@ body {
         text-align: left; }
         body .mainBodyWrap .panelWrap .sectionText p {
           color: #727878; }
+      body .mainBodyWrap .panelWrap .logos {
+        margin-bottom: 10px; }
     body .mainBodyWrap .selected {
       display: block; }
     body .mainBodyWrap .mainNav {

@@ -60,7 +60,7 @@
                                                 This project also uses sass for the css.  The sass code is compiled using codekit.
                                         </p>
                                 </div><!-- sectionText -->
-                                <div class="row">
+                                <div class="row logos">
                                         <div class="col-md-3">
                                                 <img src="./images/logos/PHP-logo.png"/>
                                         </div>
@@ -74,7 +74,7 @@
                                                 <img src="./images/logos/github-logo.png"/>
                                         </div>
                                 </div>
-                                <div class="row">
+                                <div class="row logos">
                                         <div class="col-md-3">
                                                 <img src="./images/logos/oscon2014_logo.png"/>
                                         </div>
