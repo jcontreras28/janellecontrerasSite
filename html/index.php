@@ -128,7 +128,7 @@
                                         </p>
                                 </div><!-- sectionText -->
                                 <div class="">
-                                        <img src="./images/logos/all-logos.png" style="width: 70%"/>
+                                        <img src="./images/logos/all-logos.png" style="width: 50%"/>
                                 </div>
                                 <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
