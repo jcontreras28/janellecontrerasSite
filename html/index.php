@@ -69,7 +69,7 @@
                                                 
                                         </div>
                                         <div class="col-md-4">
-                                                <img src="./images/logos/github-logo.png"/>
+                                                <img src="./images/logos/ubuntu.png"/>
                                         </div>
                                 </div>
                                 <div class="row logos">
@@ -83,7 +83,7 @@
                                                 <img src="./images/logos/sass.png"/>
                                         </div>
                                         <div class="col-md-3">
-                                                <img src="./images/logos/ubuntu.png"/>
+                                                <img src="./images/logos/github-logo.png"/>
                                         </div>
                                 </div>
                                 <div class="windowwidth">click for window width</div>
