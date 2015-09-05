@@ -127,6 +127,9 @@
                                         <p>Build amazing fun software!
                                         </p>
                                 </div><!-- sectionText -->
+                                <div class="">
+                                        <img src="./images/logos/all-logos.png" style="width: 70%"/>
+                                </div>
                                 <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="about">
