@@ -183,11 +183,11 @@ body {
     body .mobileNav {
       display: inline; } }
 .secondVersion .topBackground {
-  height: 10%;
+  height: 200px;
   width: 100%;
   background-color: #666;
   border-bottom: 2px solid black; }
 .secondVersion .bottomBackground {
   height: 10000px;
-  background-image: url("images/greyWoodBack2.jpg");
+  background-image: url("./images/greyWoodBack2.jpg");
   background-color: #aaa; }
