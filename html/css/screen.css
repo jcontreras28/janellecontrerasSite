@@ -186,7 +186,7 @@ body.secondVersion {
   margin: 0px;
   padding: 0px; }
   body.secondVersion .topBackground {
-    height: 200px;
+    height: 160px;
     width: 100%;
     background-color: #aaa;
     border-bottom: 2px solid black; }
@@ -196,7 +196,7 @@ body.secondVersion {
     background-color: #aaa; }
   body.secondVersion .bodywrap {
     position: absolute;
-    top: 120px;
+    top: 100px;
     left: 10%;
     width: 80%;
     background-color: white;
