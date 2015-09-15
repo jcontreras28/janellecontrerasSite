@@ -20,7 +20,10 @@
         </head>
         <body class="secondVersion">
                 <div class="topBackground">
-                        
+
+                </div>
+                <div class="bodywrap">
+                        <h1>some text</h1>
                 </div>
                 <div class="bottomBackground">
 
