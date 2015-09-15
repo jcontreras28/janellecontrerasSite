@@ -22,10 +22,29 @@ body.secondVersion {
 		background-color: white;
 		height: 600px;
 
-		.menuWrap {
-			height: 60px;
-			background-color: #222;
-			color: white;
-		}
+		.mainNav {
+	    	font-family: Tahoma, Geneva, sans-serif;
+	    	font-weight: bold;
+	    	text-align: center;
+	    	background-color: #222;
+	    	color: white;
+	    	height: 60px;
+
+	    	ul {
+	    		padding-left: 0px;
+
+		    	li {
+		    		display: inline;
+		    		&:hover {
+		    			bakcground-color: $siteGreen;
+		    		}
+		    		cursor: pointer;
+		    	}
+		    	.menuItemSelected {
+		    		background-color: white;
+		    		color: #333;
+		    	}
+		    }
+	    }
 	}
 }

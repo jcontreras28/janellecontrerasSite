@@ -23,8 +23,13 @@
 
                 </div>
                 <div class="bodywrap">
-                        <div class="menuWrap">
-                                Home
+                        <div class="mainNav">
+                                <ul class="mainNavItems">
+                                        <li class="tabItem menuItemSelected" id="liskills">Skills</li>
+                                        <li class="tabItem" id="liexperience">Work experience</li>
+                                        <li class="tabItem" id="lidream">Dream</li>
+                                        <li class="tabItem" id="liabout">About</li>
+                                </ul>
                         </div>
                 </div>
                 <div class="bottomBackground">
