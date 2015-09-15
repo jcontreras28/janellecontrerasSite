@@ -23,7 +23,9 @@
 
                 </div>
                 <div class="bodywrap">
-                        <h1>some text</h1>
+                        <div class="menuWrap">
+                                Home
+                        </div>
                 </div>
                 <div class="bottomBackground">
 
