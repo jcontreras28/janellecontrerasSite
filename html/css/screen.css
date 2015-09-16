@@ -211,7 +211,8 @@ body.secondVersion {
       height: 60px;
       width: 100%; }
       body.secondVersion .bodywrap .mainNav ul {
-        padding-left: 0px; }
+        padding-left: 0px;
+        height: 100%; }
         body.secondVersion .bodywrap .mainNav ul li {
           display: inline;
           cursor: pointer; }
