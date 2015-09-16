@@ -205,16 +205,18 @@ body.secondVersion {
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
       text-align: center;
+      font-size: 2em;
       background-color: #222;
       color: white;
-      height: 60px; }
+      height: 60px;
+      width: 100%; }
       body.secondVersion .bodywrap .mainNav ul {
         padding-left: 0px; }
         body.secondVersion .bodywrap .mainNav ul li {
           display: inline;
           cursor: pointer; }
           body.secondVersion .bodywrap .mainNav ul li:hover {
-            bakcground-color: #22a39f; }
+            bakcground-color: #391; }
         body.secondVersion .bodywrap .mainNav ul .menuItemSelected {
           background-color: white;
           color: #333; }

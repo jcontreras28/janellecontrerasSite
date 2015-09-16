@@ -26,9 +26,11 @@ body.secondVersion {
 	    	font-family: Tahoma, Geneva, sans-serif;
 	    	font-weight: bold;
 	    	text-align: center;
+	    	font-size: 2em;
 	    	background-color: #222;
 	    	color: white;
 	    	height: 60px;
+	    	width:100%;
 
 	    	ul {
 	    		padding-left: 0px;
@@ -36,7 +38,7 @@ body.secondVersion {
 		    	li {
 		    		display: inline;
 		    		&:hover {
-		    			bakcground-color: $siteGreen;
+		    			bakcground-color: #391;
 		    		}
 		    		cursor: pointer;
 		    	}
