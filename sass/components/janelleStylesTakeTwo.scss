@@ -10,6 +10,11 @@ body.secondVersion {
 			width: 70%;
 			margin-left: 15%;
 			color: blue;
+			display: table;
+			.headerItem {
+				display: table-cell;
+				vertical-align: bottom;
+			}
 		}
 	}
 	.bottomBackground {

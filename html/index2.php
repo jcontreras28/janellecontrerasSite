@@ -22,10 +22,10 @@
         <body class="secondVersion">
                 <div class="topBackground">
                         <div class="headerRow">
-                                <div class="col-sm-8">
+                                <div class="col-sm-8 headerItem">
                                         Janelle Contreras
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 headerItem">
                                         <i class="fa fa-linkedin-square fa-5x"></i>
                                 </div>
                         </div>
