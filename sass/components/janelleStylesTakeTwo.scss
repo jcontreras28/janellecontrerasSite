@@ -118,19 +118,17 @@ body.secondVersion {
 		    	margin: 0;
 		    	padding: 0;
 
-		    	.formrow {
-		    		.topRow {
-		    			.nameField {
-		    				float: left;
-		    				width: 50%;
-		    			}
-		    			.emailField {
-		    				float: left;
-		    				width: 50%;
-		    			}
+		    	.topRow {
+		    		.nameField {
+		    			float: left;
+		    			width: 50%;
+		    		}
+		    		.emailField {
+		    			float: left;
+		    			width: 50%;
 		    		}
 		    	}
-		    }
+			}
 		}
 		.selected {
 			display: block;

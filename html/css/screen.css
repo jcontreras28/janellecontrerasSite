@@ -272,10 +272,10 @@ body.secondVersion {
       body.secondVersion .bodywrap .panelWrap #contactform {
         margin: 0;
         padding: 0; }
-        body.secondVersion .bodywrap .panelWrap #contactform .formrow .topRow .nameField {
+        body.secondVersion .bodywrap .panelWrap #contactform .topRow .nameField {
           float: left;
           width: 50%; }
-        body.secondVersion .bodywrap .panelWrap #contactform .formrow .topRow .emailField {
+        body.secondVersion .bodywrap .panelWrap #contactform .topRow .emailField {
           float: left;
           width: 50%; }
     body.secondVersion .bodywrap .selected {
