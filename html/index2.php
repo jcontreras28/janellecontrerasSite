@@ -40,8 +40,6 @@
                                         <div class="tabItem" id="liabout">About</div>
                                 </div>
                         </div><!-- mainNav -->
-                </div>
-                <div class="bottomBackground">
                         <div class="panelWrap selected" id="skills">
                                 <div class="row sectionHeading">
                                         <div class="col-md-3">
@@ -156,6 +154,8 @@
                                 </div><!-- sectionText -->
                                 <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
+                </div>
+                <div class="bottomBackground">
 
                 </div>
         </body>
