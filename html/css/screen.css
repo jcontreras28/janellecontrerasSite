@@ -253,7 +253,8 @@ body.secondVersion {
         body.secondVersion .bodywrap .panelWrap .sectionText p {
           color: #727878; }
       body.secondVersion .bodywrap .panelWrap .logosRow {
-        width: 91%; }
+        width: 91%;
+        margin-left: 4.5%; }
         body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock {
           width: 13%; }
           body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock img {

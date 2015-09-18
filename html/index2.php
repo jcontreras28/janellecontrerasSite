@@ -84,7 +84,7 @@
                                                 <img src="./images/logos/github-logo.png"/>
                                         </div>
                                 </div>
-                                <div class="windowwidth">click for window width</div>
+                                
                         </div><!-- panelWrap -->
                         <div class="panelWrap" id="experience">
                                 <div class="row sectionHeading">
