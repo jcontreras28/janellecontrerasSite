@@ -263,7 +263,6 @@ body.secondVersion {
         display: table; }
         body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock {
           width: 13%;
-          float: left;
           display: table-cell;
           vertical-align: middle; }
           body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock img {
