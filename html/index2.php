@@ -26,8 +26,9 @@
                                         Janelle Contreras
                                 </div>
                                 <div class="col-sm-4">
-                                        <i class="fa fa-linkedin-square"></i>
+                                        <i class="fa fa-linkedin-square fa-5x"></i>
                                 </div>
+                        </div>
                 </div>
                 <div class="bodywrap">
                         <div class="mainNav">
