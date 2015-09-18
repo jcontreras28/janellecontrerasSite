@@ -239,7 +239,8 @@ body.secondVersion {
     body.secondVersion .bodywrap img {
       width: 95%; }
     body.secondVersion .bodywrap .panelWrap {
-      display: none; }
+      display: none;
+      margin: 30px; }
       body.secondVersion .bodywrap .panelWrap .sectionTitle {
         text-align: left;
         font-style: italic;
