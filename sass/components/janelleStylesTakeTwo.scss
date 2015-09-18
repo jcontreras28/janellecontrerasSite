@@ -10,7 +10,7 @@ body.secondVersion {
 			width: 70%;
 			margin-left: 15%;
 			height: 100%;
-			color: blue;
+			color: $siteGreen;
 			display: table;
 			.headerItem {
 				display: table-cell;
@@ -91,17 +91,11 @@ body.secondVersion {
 		    .sectionTitle {
 		        text-align: left;
 		        font-style: italic;
-		        color: $siteGreen;
+		        color: black;
 		    }
 		    .sectionBar {
 		        background-color: $siteDGrey;
 		        margin-left: 0px;
-		    }
-		    .sectionText {
-		        text-align: left;
-		        p {
-		        	color: $siteLtGrey;
-		        }
 		    }
 		    .logosRow {
 		    	text-align: center;

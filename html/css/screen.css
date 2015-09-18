@@ -193,7 +193,7 @@ body.secondVersion {
       width: 70%;
       margin-left: 15%;
       height: 100%;
-      color: blue;
+      color: #22a39f;
       display: table; }
       body.secondVersion .topBackground .headerRow .headerItem {
         display: table-cell;
@@ -253,14 +253,10 @@ body.secondVersion {
       body.secondVersion .bodywrap .panelWrap .sectionTitle {
         text-align: left;
         font-style: italic;
-        color: #22a39f; }
+        color: black; }
       body.secondVersion .bodywrap .panelWrap .sectionBar {
         background-color: #434242;
         margin-left: 0px; }
-      body.secondVersion .bodywrap .panelWrap .sectionText {
-        text-align: left; }
-        body.secondVersion .bodywrap .panelWrap .sectionText p {
-          color: #727878; }
       body.secondVersion .bodywrap .panelWrap .logosRow {
         text-align: center;
         width: 91%;
