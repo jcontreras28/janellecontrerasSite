@@ -288,7 +288,7 @@ body.secondVersion {
         border-radius: 0px 0px 0px 5px; } }
 @media (min-width: 1px) and (max-width: 789px) {
   body.secondVersion .topBackground {
-    height: 100px; }
+    display: none; }
   body.secondVersion .bodywrap {
     top: 100px;
     left: 10%;
