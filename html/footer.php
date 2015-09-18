@@ -21,6 +21,12 @@
                         var newPanel = $('#' + theId);
                         newPanel.addClass("selected");
                 });
+                
+                $('.fa-linkedin-square').click(function() {
+                        var oldTab = $('.menuItemSelected');
+                        oldTab.removeClass('menuItemSelected');
+                        $('#contactForm').addClass("menuItemSelected");
+                });
 
                 $('.windowwidth').click(function(){
                         alert("width= "+$(window).width());

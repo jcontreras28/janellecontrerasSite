@@ -116,6 +116,13 @@
                 </div><!-- sectionText -->
                 <div class="windowwidth">click for window width</div>
         </div><!-- panelWrap -->
+        <div class="panelWrap" id="contactForm">
+                <div class="row sectionHeading">
+                        Form goes here
+                </div><!-- sectionHeading -->
         
+                <div class="windowwidth">click for window width</div>
+        </div><!-- panelWrap -->
+
         <?php require 'footer.php'; ?>
 </html>
