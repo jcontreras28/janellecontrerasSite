@@ -186,21 +186,15 @@ body.secondVersion {
   margin: 0px;
   padding: 0px; }
   body.secondVersion .topBackground {
-    height: 190px;
     width: 100%;
     background-color: #aaa;
     border-bottom: 2px solid black; }
   body.secondVersion .bottomBackground {
-    height: 10000px;
     background-image: url("http://janellecontreras.com/images/greyWoodBack2.jpg");
     background-color: #aaa; }
   body.secondVersion .bodywrap {
     position: absolute;
-    top: 100px;
-    left: 10%;
-    width: 80%;
     background-color: white;
-    height: 600px;
     -webkit-box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25);
     -moz-box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25);
     box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25); }
@@ -208,11 +202,8 @@ body.secondVersion {
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
       text-align: center;
-      font-size: 2em;
-      line-height: 2em;
       background-color: #222;
       color: white;
-      height: 60px;
       width: 100%;
       -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
@@ -221,7 +212,6 @@ body.secondVersion {
         padding-left: 0px;
         height: 100%; }
         body.secondVersion .bodywrap .mainNav ul li {
-          padding: 12px 5px 22px 5px;
           display: inline;
           cursor: pointer; }
           body.secondVersion .bodywrap .mainNav ul li:hover {
@@ -241,15 +231,10 @@ body.secondVersion {
       width: 100%; }
       body.secondVersion .bodywrap .mobileNav .sandMenu {
         background-color: #434242;
-        padding-right: 10px;
         cursor: pointer; }
       body.secondVersion .bodywrap .mobileNav .mobileItems {
         border-top: 2px solid #22a39f;
-        background-color: #434242;
-        width: 50%;
-        margin-left: 50%;
-        padding-right: 5px;
-        border-radius: 0px 0px 0px 5px; }
+        background-color: #434242; }
     body.secondVersion .bodywrap img {
       width: 95%; }
     body.secondVersion .bodywrap .panelWrap {
@@ -269,3 +254,37 @@ body.secondVersion {
         margin-bottom: 30px; }
     body.secondVersion .bodywrap .selected {
       display: block; }
+
+@media (min-width: 790px) and (max-width: 600000px) {
+  body.secondVersion .topBackground {
+    height: 100px; }
+  body.secondVersion .bodywrap {
+    top: 100px;
+    left: 10%;
+    width: 80%; }
+    body.secondVersion .bodywrap .mainNav {
+      font-size: 2em;
+      line-height: 2em;
+      height: 60px; }
+      body.secondVersion .bodywrap .mainNav ul li {
+        padding: 12px 5px 22px 5px; }
+    body.secondVersion .bodywrap .mobileNav {
+      display: none; }
+      body.secondVersion .bodywrap .mobileNav .sandMenu {
+        padding-right: 10px; }
+      body.secondVersion .bodywrap .mobileNav .mobileItems {
+        width: 50%;
+        margin-left: 50%;
+        padding-right: 5px;
+        border-radius: 0px 0px 0px 5px; } }
+@media (min-width: 1px) and (max-width: 789px) {
+  body.secondVersion .topBackground {
+    height: 100px; }
+  body.secondVersion .bodywrap {
+    top: 100px;
+    left: 10%;
+    width: 80%; }
+    body.secondVersion .bodywrap .mainNav {
+      display: none; }
+    body.secondVersion .bodywrap .mobileNav {
+      display: inline; } }

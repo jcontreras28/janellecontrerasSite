@@ -3,24 +3,19 @@ body.secondVersion {
 	padding: 0px;
 
 	.topBackground {
-		height: 190px;
 		width: 100%;
 		background-color: #aaa;
 		border-bottom: 2px solid black;
 	}
 	.bottomBackground {
-		height: 10000px;
+		//height: 10000px;
 		background-image: url('http://janellecontreras.com/images/greyWoodBack2.jpg');
 		background-color: #aaa;
 	}
 
 	.bodywrap {
 		position: absolute;
-		top: 100px;
-		left: 10%;
-		width: 80%;
 		background-color: white;
-		height: 600px;
 		-webkit-box-shadow: 5px 5px 2px 0px rgba(255,255,255,0.25);
 		-moz-box-shadow: 5px 5px 2px 0px rgba(255,255,255,0.25);
 		box-shadow: 5px 5px 2px 0px rgba(255,255,255,0.25);
@@ -29,11 +24,8 @@ body.secondVersion {
 	    	font-family: Tahoma, Geneva, sans-serif;
 	    	font-weight: bold;
 	    	text-align: center;
-	    	font-size: 2em;
-	    	line-height: 2em;
 	    	background-color: #222;
 	    	color: white;
-	    	height: 60px;
 	    	width:100%;
 
 	    	-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
@@ -45,7 +37,6 @@ body.secondVersion {
 	    		height: 100%;
 
 		    	li {
-		    		padding: 12px 5px 22px 5px;
 		    		display: inline;
 		    		&:hover {
 		    			bakcground-color: #391;
@@ -72,16 +63,11 @@ body.secondVersion {
 	    	width: 100%;
 	    	.sandMenu {
 	    		background-color: $siteDGrey;
-	    		padding-right: 10px;
 	    		cursor: pointer;
 	    	}
 	    	.mobileItems {
 	    		border-top: 2px solid $siteGreen;
 	    		background-color: $siteDGrey;
-	    		width: 50%;
-	    		margin-left: 50%;
-	    		padding-right: 5px;
-	    		border-radius: 0px 0px 0px 5px;
 	    	}
 		}
 	    img {
@@ -113,4 +99,65 @@ body.secondVersion {
 			display: block;
 		}
 	}
+}
+
+@media (min-width: 790px) and (max-width: 600000px) {
+	body.secondVersion {
+
+		.topBackground {
+			height: 100px;
+		}
+		.bodywrap {
+			top: 100px;
+			left: 10%;
+			width: 80%;
+
+			.mainNav {
+		    	font-size: 2em;
+		    	line-height: 2em;
+		    	height: 60px;
+
+		    	ul {
+
+			    	li {
+			    		padding: 12px 5px 22px 5px;
+			    	}
+			    }
+			}
+			.mobileNav {
+				display: none;
+		    	.sandMenu {
+		    		padding-right: 10px;
+		    	}
+		    	.mobileItems {
+		    		width: 50%;
+		    		margin-left: 50%;
+		    		padding-right: 5px;
+		    		border-radius: 0px 0px 0px 5px;
+		    	}
+			}
+		}
+	}
+}
+@media (min-width: 1px) and (max-width: 789px) {
+	body.secondVersion {
+
+		.topBackground {
+			height: 100px;
+		}
+		.bodywrap {
+			top: 100px;
+			left: 10%;
+			width: 80%;
+
+			.mainNav {
+				display: none;
+			}
+			.mobileNav {
+				display: inline;
+			}
+		}
+	}
+
+
 }
