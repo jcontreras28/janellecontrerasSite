@@ -155,6 +155,7 @@
                                 <div class="windowwidth">click for window width</div>
                         </div><!-- panelWrap -->
                 </div>
+                 <div class="windowwidth">click for window width</div>
                 <div class="bottomBackground">
 
                 </div>
