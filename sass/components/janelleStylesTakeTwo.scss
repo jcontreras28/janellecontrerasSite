@@ -30,6 +30,7 @@ body.secondVersion {
 	    	font-weight: bold;
 	    	text-align: center;
 	    	font-size: 2em;
+	    	line-height: 2em;
 	    	background-color: #222;
 	    	color: white;
 	    	height: 60px;
@@ -44,7 +45,7 @@ body.secondVersion {
 	    		height: 100%;
 
 		    	li {
-		    		padding: 2px 5px 5px 5px;
+		    		padding: 12px 5px 12px 5px;
 		    		display: inline;
 		    		&:hover {
 		    			bakcground-color: #391;

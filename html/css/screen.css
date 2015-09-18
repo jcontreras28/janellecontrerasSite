@@ -209,6 +209,7 @@ body.secondVersion {
       font-weight: bold;
       text-align: center;
       font-size: 2em;
+      line-height: 2em;
       background-color: #222;
       color: white;
       height: 60px;
@@ -220,7 +221,7 @@ body.secondVersion {
         padding-left: 0px;
         height: 100%; }
         body.secondVersion .bodywrap .mainNav ul li {
-          padding: 2px 5px 5px 5px;
+          padding: 12px 5px 12px 5px;
           display: inline;
           cursor: pointer; }
           body.secondVersion .bodywrap .mainNav ul li:hover {
