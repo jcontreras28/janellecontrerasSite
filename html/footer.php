@@ -21,8 +21,8 @@
                         var newPanel = $('#' + theId);
                         newPanel.addClass("selected");
                 });
-                
-                $('.fa-linkedin-square').click(function() {
+
+                $('.fa-envelope').click(function() {
                         var oldTab = $('.menuItemSelected');
                         oldTab.removeClass('menuItemSelected');
                         $('#contactForm').addClass("menuItemSelected");
