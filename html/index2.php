@@ -17,10 +17,17 @@
                 <!-- Latest compiled and minified JavaScript -->
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
                 <link rel="stylesheet" href="css/screen.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         </head>
         <body class="secondVersion">
                 <div class="topBackground">
-
+                        <div class="row">
+                                <div class="col-sm-8">
+                                        Janelle Contreras
+                                </div>
+                                <div class="col-sm-4">
+                                        <i class="fa fa-linkedin-square"></i>
+                                </div>
                 </div>
                 <div class="bodywrap">
                         <div class="mainNav">
