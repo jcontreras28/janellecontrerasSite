@@ -271,26 +271,13 @@ body.secondVersion {
             margin-left: 2%; }
       body.secondVersion .bodywrap .panelWrap #contactform {
         margin: 0;
-        padding: 0;
-        vertical-align: baseline; }
-        body.secondVersion .bodywrap .panelWrap #contactform .formrow .one-half {
+        padding: 0; }
+        body.secondVersion .bodywrap .panelWrap #contactform .formrow .topRow .nameField {
           float: left;
-          margin-bottom: 1em;
           width: 50%; }
-        body.secondVersion .bodywrap .panelWrap #contactform .formrow .column-last {
-          clear: rigth;
-          margin-right: 0; }
-        body.secondVersion .bodywrap .panelWrap #contactform .formrow .messagerow {
-          padding-bottom: 1em; }
-          body.secondVersion .bodywrap .panelWrap #contactform .formrow .messagerow label {
-            display: block;
-            margin: 0 0 6px; }
-          body.secondVersion .bodywrap .panelWrap #contactform .formrow .messagerow textarea {
-            border-color: #cccccc;
-            border-style: solid;
-            border-width: 1px;
-            margin: 0;
-            padding: 0.5em; }
+        body.secondVersion .bodywrap .panelWrap #contactform .formrow .topRow .emailField {
+          float: left;
+          width: 50%; }
     body.secondVersion .bodywrap .selected {
       display: block; }
 

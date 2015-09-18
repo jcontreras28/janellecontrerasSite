@@ -121,16 +121,17 @@
                 <div class="contactcontent">
                         <div id="contact-form">
                                 <form action="http://www.janellecontreras.com/sendmess.php" id="contactform" method="post" class="contactsubmit">
-                                        <div class="formrow">
-                                                <div class="one-half">
-                                                        <label for="cname">Name</label>
-                                                        <input type="text" name="cname" id="cname" minlength="2" size="22" tabindex="1" class="required" required/>
+                                        <div class="topRow">
+                                                <div class="nameField">
+                                                        <label for="name">Name</label>
+                                                        <input type="text" name="cname" id="name" minlength="2" size="22" tabindex="1" class="required" required/>
                                                 </div>
-                                                <div class="one-half column-last">
-                                                        <label for="cemail">Email</label>
-                                                        <input type="email" name="cemail" id="cemail" size="22" tabindex="1" class="required email" required/>
+                                                <div class="emailField">
+                                                        <label for="email">Email</label>
+                                                        <input type="email" name="email" id="cemail" size="22" tabindex="1" class="required email" required/>
                                                 </div>
                                         </div>
+                                        <div class="clearfix"></div>
                                         <div class="messagerow">
                                                 <label for="cmessage">Message</label>
                                                 <textarea name="cmessage" id="cmessage" cols="100%" rows="8" tabindex="3" class="required" required></textarea>
