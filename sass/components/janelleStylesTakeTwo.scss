@@ -98,11 +98,20 @@ body.secondVersion {
 		        }
 		    }
 		    .logosRow {
+		    	text-align: center;
 		    	width: 91%;
 		    	margin-left: 4.5%;
+
+		    	&:before {
+		    		display: inline-block;
+		    		height: 100%;
+		    		vertical-align: middle;
+		    	}
 		    	.logoBlock {
 		    		width: 13%;
 		    		float: left;
+		    		display: inline-block;
+		    		vertical-align: middle;
 		    		img {
 		    			width: 96%;
 		    			margin-left: 2%;
