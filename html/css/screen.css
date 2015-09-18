@@ -229,6 +229,6 @@ body.secondVersion {
         body.secondVersion .bodywrap .mainNav ul .menuItemSelected {
           background-color: white;
           color: #333;
-          -webkit-box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25);
-          -moz-box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25);
-          box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25); }
+          -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75); }
