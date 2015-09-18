@@ -136,7 +136,7 @@
                                                 <label for="message">Message</label><br>
                                                 <textarea name="message" id="message" cols="100%" rows="8" tabindex="3" class="required" required></textarea>
                                         </div>
-                                        <p>
+                                        <p class="subButton">
                                             <label for="submit"></label>
                                             <input type="submit" name="submit" id="submit" class="button" value="Send Message"/>
                                         </p>
@@ -149,8 +149,6 @@
                         <div class="clear"></div>
                 </div>
                 <!-- END Contact Form --> 
-        
-                <div class="windowwidth">click for window width</div>
         </div><!-- panelWrap -->
 
         <?php require 'footer.php'; ?>

@@ -280,6 +280,8 @@ body.secondVersion {
           width: 50%; }
         body.secondVersion .bodywrap .panelWrap #contactform .messageRow {
           margin-top: 1em; }
+        body.secondVersion .bodywrap .panelWrap #contactform .subButton {
+          margin-top: 1em; }
     body.secondVersion .bodywrap .selected {
       display: block; }
 
