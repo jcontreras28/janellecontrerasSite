@@ -17,10 +17,13 @@ body.secondVersion {
 				vertical-align: bottom;
 			}
 			.myName {
-				font-size: 2em;
+				font-size: 3em;
 				color: white;
 				font-weight: bold;
 				font-style: italic;
+				a {
+					text-decoration: none;
+				}
 			}
 		}
 	}

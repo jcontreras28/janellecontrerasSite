@@ -199,10 +199,12 @@ body.secondVersion {
         display: table-cell;
         vertical-align: bottom; }
       body.secondVersion .topBackground .headerRow .myName {
-        font-size: 2em;
+        font-size: 3em;
         color: white;
         font-weight: bold;
         font-style: italic; }
+        body.secondVersion .topBackground .headerRow .myName a {
+          text-decoration: none; }
   body.secondVersion .bottomBackground {
     height: 10000px;
     background-image: url("http://janellecontreras.com/images/greyWoodBack2.jpg");
