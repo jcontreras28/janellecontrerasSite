@@ -278,6 +278,8 @@ body.secondVersion {
         body.secondVersion .bodywrap .panelWrap #contactform .topRow .emailField {
           float: left;
           width: 50%; }
+        body.secondVersion .bodywrap .panelWrap #contactform .messageRow {
+          margin-top: 1em; }
     body.secondVersion .bodywrap .selected {
       display: block; }
 

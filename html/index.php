@@ -124,21 +124,21 @@
                                         <div class="topRow">
                                                 <div class="nameField">
                                                         <label for="name">Name</label>
-                                                        <input type="text" name="cname" id="name" minlength="2" size="22" tabindex="1" class="required" required/>
+                                                        <input type="text" name="name" id="name" minlength="2" size="22" tabindex="1" class="required" required/>
                                                 </div>
                                                 <div class="emailField">
                                                         <label for="email">Email</label>
-                                                        <input type="email" name="email" id="cemail" size="22" tabindex="1" class="required email" required/>
+                                                        <input type="email" name="email" id="email" size="22" tabindex="1" class="required email" required/>
                                                 </div>
                                         </div>
                                         <div class="clearfix"></div>
-                                        <div class="messagerow">
-                                                <label for="cmessage">Message</label><br>
-                                                <textarea name="cmessage" id="cmessage" cols="100%" rows="8" tabindex="3" class="required" required></textarea>
+                                        <div class="messageRow">
+                                                <label for="message">Message</label><br>
+                                                <textarea name="message" id="message" cols="100%" rows="8" tabindex="3" class="required" required></textarea>
                                         </div>
                                         <p>
-                                            <label for="csubmit"></label>
-                                            <input type="submit" name="csubmit" id="csubmit" class="button" value="Send Message"/>
+                                            <label for="submit"></label>
+                                            <input type="submit" name="submit" id="submit" class="button" value="Send Message"/>
                                         </p>
                                         <input type="hidden" name="csubmitted" id="csubmitted" value="true" />
                                 </form>
