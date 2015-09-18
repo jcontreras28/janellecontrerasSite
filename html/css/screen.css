@@ -1,310 +1,89 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800|Open+Sans+Condensed:300,300italic,700);
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
-body {
-  background-color: black;
-  color: #727878; }
-  body .mainBodyWrap {
-    background-color: #f3efe0;
-    text-align: center;
-    margin: 0px auto 20px; }
-    body .mainBodyWrap img {
-      width: 95%; }
-    body .mainBodyWrap .panelWrap {
-      display: none; }
-      body .mainBodyWrap .panelWrap .sectionTitle {
-        text-align: left;
-        font-style: italic;
-        color: #22a39f; }
-      body .mainBodyWrap .panelWrap .sectionBar {
-        background-color: #434242;
-        margin-left: 0px; }
-      body .mainBodyWrap .panelWrap .sectionText {
-        text-align: left; }
-        body .mainBodyWrap .panelWrap .sectionText p {
-          color: #727878; }
-      body .mainBodyWrap .panelWrap .logos {
-        margin-bottom: 30px; }
-    body .mainBodyWrap .selected {
-      display: block; }
-    body .mainBodyWrap .mainNav {
-      font-family: Tahoma, Geneva, sans-serif;
-      font-weight: bold;
-      text-align: center;
-      background-color: #434242;
-      color: white;
-      width: 100%; }
-      body .mainBodyWrap .mainNav ul {
-        padding-left: 0px; }
-        body .mainBodyWrap .mainNav ul li {
-          display: inline;
-          cursor: pointer; }
-          body .mainBodyWrap .mainNav ul li:hover {
-            bakcground-color: #22a39f; }
-        body .mainBodyWrap .mainNav ul .menuItemSelected {
-          background-color: #f3efe0;
-          color: #22a39f; }
-    body .mainBodyWrap .mobileNav {
-      font-family: Tahoma, Geneva, sans-serif;
-      font-weight: bold;
-      text-align: right;
-      background-color: #434242;
-      color: white;
-      width: 100%; }
-      body .mainBodyWrap .mobileNav .sandMenu {
-        background-color: #434242;
-        padding-right: 10px;
-        cursor: pointer; }
-      body .mainBodyWrap .mobileNav .mobileItems {
-        border-top: 2px solid #22a39f;
-        background-color: #434242;
-        width: 50%;
-        margin-left: 50%;
-        padding-right: 5px;
-        border-radius: 0px 0px 0px 5px; }
+/*
+Error: Invalid CSS after "			color": expected ";", was ": blue;"
+        on line 13 of /Users/jcontreras/webdev/mysite/janellecontrerasSite/sass/components/janelleStylesTakeTwo.scss
+        from line 28 of /Users/jcontreras/webdev/mysite/janellecontrerasSite/sass/screen.scss
 
-@media (min-width: 1184px) and (max-width: 600000px) {
-  body {
-    padding: 0 16px;
-    margin: 10px auto; }
-    body .mainBodyWrap {
-      border: 15px solid #22a39f;
-      border-radius: 10px;
-      width: 70%; }
-      body .mainBodyWrap .panelWrap {
-        padding: 10px 10px; }
-        body .mainBodyWrap .panelWrap .sectionTitle {
-          margin-top: 100px;
-          font-size: 1.5em; }
-        body .mainBodyWrap .panelWrap .sectionBar {
-          border-radius: 5p;
-          padding: 10px;
-          width: 105%; }
-        body .mainBodyWrap .panelWrap .sectionText {
-          padding: 20px; }
-          body .mainBodyWrap .panelWrap .sectionText p {
-            font-size: 1.3 em; }
-      body .mainBodyWrap .mainNav {
-        font-size: 2em; }
-        body .mainBodyWrap .mainNav li {
-          padding: 20px; }
-        body .mainBodyWrap .mainNav .menuItemSelected {
-          padding-top: 2px; }
-      body .mainBodyWrap .mobileNav {
-        display: none; } }
-@media (min-width: 992px) and (max-width: 1183px) {
-  body {
-    padding: 0 16px;
-    margin: 10px auto; }
-    body .mainBodyWrap {
-      border: 15px solid #22a39f;
-      border-radius: 10px;
-      width: 70%; }
-      body .mainBodyWrap .panelWrap {
-        padding: 10px 10px; }
-        body .mainBodyWrap .panelWrap .sectionTitle {
-          margin-top: 50px;
-          font-size: 1.5em; }
-        body .mainBodyWrap .panelWrap .sectionBar {
-          border-radius: 5p;
-          padding: 10px;
-          width: 105%; }
-        body .mainBodyWrap .panelWrap .sectionText {
-          padding: 20px; }
-          body .mainBodyWrap .panelWrap .sectionText p {
-            font-size: 1.3 em; }
-      body .mainBodyWrap .mainNav {
-        font-size: 1.4em; }
-        body .mainBodyWrap .mainNav li {
-          padding: 10px; }
-        body .mainBodyWrap .mainNav .menuItemSelected {
-          padding-top: 2px; }
-      body .mainBodyWrap .mobileNav {
-        display: none; } }
-@media (min-width: 645px) and (max-width: 991px) {
-  body {
-    padding: 0 16px;
-    margin: 10px auto; }
-    body .mainBodyWrap {
-      border: 15px solid #22a39f;
-      border-radius: 10px;
-      width: 90%; }
-      body .mainBodyWrap .panelWrap {
-        padding: 10px 10px; }
-        body .mainBodyWrap .panelWrap img {
-          width: 50%; }
-        body .mainBodyWrap .panelWrap .sectionTitle {
-          margin-top: 10px;
-          font-size: 1.5em; }
-        body .mainBodyWrap .panelWrap .sectionBar {
-          border-radius: 5p;
-          padding: 10px;
-          width: 105%; }
-        body .mainBodyWrap .panelWrap .sectionText {
-          padding: 20px; }
-          body .mainBodyWrap .panelWrap .sectionText p {
-            font-size: 1.3 em; }
-      body .mainBodyWrap .mainNav {
-        font-size: 1.4em; }
-        body .mainBodyWrap .mainNav li {
-          padding: 10px; }
-        body .mainBodyWrap .mainNav .menuItemSelected {
-          padding-top: 2px; }
-      body .mainBodyWrap .mobileNav {
-        display: none; } }
-@media (min-width: 1px) and (max-width: 644px) {
-  body {
-    padding: 0 6px;
-    margin: 5px auto; }
-    body .mainBodyWrap {
-      border: 5px solid #22a39f;
-      border-radius: 5px;
-      width: 96%; }
-      body .mainBodyWrap .panelWrap {
-        padding: 10px 10px; }
-        body .mainBodyWrap .panelWrap img {
-          width: 50%; }
-        body .mainBodyWrap .panelWrap .sectionTitle {
-          margin-top: 10px;
-          font-size: 1.5em; }
-        body .mainBodyWrap .panelWrap .sectionBar {
-          border-radius: 5p;
-          padding: 10px;
-          width: 105%; }
-        body .mainBodyWrap .panelWrap .sectionText {
-          padding: 20px; }
-          body .mainBodyWrap .panelWrap .sectionText p {
-            font-size: 1.3 em; }
-    body .mainNav {
-      display: none; }
-    body .mobileNav {
-      display: inline; } }
-body.secondVersion {
-  margin: 0px;
-  padding: 0px; }
-  body.secondVersion .topBackground {
-    width: 100%;
-    background-color: #aaa;
-    border-bottom: 2px solid black; }
-    body.secondVersion .topBackground .headerRow {
-      width: 70%;
-      margin-left: 15%;
-      color: blue;
-      display: table; }
-      body.secondVersion .topBackground .headerRow .headerItem {
-        display: table-cell;
-        vertical-align: bottom; }
-  body.secondVersion .bottomBackground {
-    height: 10000px;
-    background-image: url("http://janellecontreras.com/images/greyWoodBack2.jpg");
-    background-color: #aaa; }
-  body.secondVersion .bodywrap {
-    position: absolute;
-    background-color: white;
-    -webkit-box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25);
-    -moz-box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25);
-    box-shadow: 5px 5px 2px 0px rgba(255, 255, 255, 0.25); }
-    body.secondVersion .bodywrap .mainNav {
-      font-family: Tahoma, Geneva, sans-serif;
-      font-weight: bold;
-      text-align: center;
-      background-color: #222;
-      color: white;
-      width: 100%;
-      -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
-      box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75); }
-      body.secondVersion .bodywrap .mainNav ul {
-        padding-left: 0px;
-        height: 100%; }
-        body.secondVersion .bodywrap .mainNav ul li {
-          display: inline;
-          cursor: pointer; }
-          body.secondVersion .bodywrap .mainNav ul li:hover {
-            bakcground-color: #391; }
-        body.secondVersion .bodywrap .mainNav ul .menuItemSelected {
-          background-color: white;
-          color: #333;
-          -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
-          -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
-          box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75); }
-    body.secondVersion .bodywrap .mobileNav {
-      font-family: Tahoma, Geneva, sans-serif;
-      font-weight: bold;
-      text-align: right;
-      background-color: #434242;
-      color: white;
-      width: 100%; }
-      body.secondVersion .bodywrap .mobileNav .sandMenu {
-        background-color: #434242;
-        cursor: pointer; }
-      body.secondVersion .bodywrap .mobileNav .mobileItems {
-        border-top: 2px solid #22a39f;
-        background-color: #434242; }
-    body.secondVersion .bodywrap img {
-      width: 95%; }
-    body.secondVersion .bodywrap .panelWrap {
-      display: none;
-      margin: 30px; }
-      body.secondVersion .bodywrap .panelWrap .sectionTitle {
-        text-align: left;
-        font-style: italic;
-        color: #22a39f; }
-      body.secondVersion .bodywrap .panelWrap .sectionBar {
-        background-color: #434242;
-        margin-left: 0px; }
-      body.secondVersion .bodywrap .panelWrap .sectionText {
-        text-align: left; }
-        body.secondVersion .bodywrap .panelWrap .sectionText p {
-          color: #727878; }
-      body.secondVersion .bodywrap .panelWrap .logosRow {
-        text-align: center;
-        width: 91%;
-        margin-left: 4.5%;
-        display: table; }
-        body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock {
-          width: 13%;
-          display: table-cell;
-          vertical-align: middle; }
-          body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock img {
-            width: 96%;
-            margin-left: 2%; }
-    body.secondVersion .bodywrap .selected {
-      display: block; }
+8: 		border-bottom: 2px solid black;
+9: 		.headerRow {
+10: 			width: 70%;
+11: 			margin-left: 15%;
+12: 			height: 100%
+13: 			color: blue;
+14: 			display: table;
+15: 			.headerItem {
+16: 				display: table-cell;
+17: 				vertical-align: bottom;
+18: 			}
 
-@media (min-width: 790px) and (max-width: 600000px) {
-  body.secondVersion .topBackground {
-    height: 190px; }
-  body.secondVersion .bodywrap {
-    top: 110px;
-    left: 15%;
-    width: 70%; }
-    body.secondVersion .bodywrap .mainNav {
-      font-size: 2em;
-      line-height: 2em;
-      height: 60px; }
-      body.secondVersion .bodywrap .mainNav ul li {
-        padding: 12px 5px 22px 5px; }
-    body.secondVersion .bodywrap .mobileNav {
-      display: none; }
-      body.secondVersion .bodywrap .mobileNav .sandMenu {
-        padding-right: 10px; }
-      body.secondVersion .bodywrap .mobileNav .mobileItems {
-        width: 50%;
-        margin-left: 50%;
-        padding-right: 5px;
-        border-radius: 0px 0px 0px 5px; } }
-@media (min-width: 1px) and (max-width: 789px) {
-  body.secondVersion .topBackground {
-    display: none; }
-  body.secondVersion .bodywrap {
-    top: 100px;
-    left: 10%;
-    width: 80%; }
-    body.secondVersion .bodywrap .mainNav {
-      display: none; }
-    body.secondVersion .bodywrap .mobileNav {
-      display: inline; } }
+Backtrace:
+/Users/jcontreras/webdev/mysite/janellecontrerasSite/sass/components/janelleStylesTakeTwo.scss:13
+/Users/jcontreras/webdev/mysite/janellecontrerasSite/sass/screen.scss:28
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1162:in `expected'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1098:in `expected'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1093:in `tok!'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:758:in `block in try_declaration'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1138:in `call'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1138:in `rethrow'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:763:in `try_declaration'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:693:in `declaration_or_ruleset'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:658:in `block_child'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:639:in `block'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:658:in `block_child'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:639:in `block'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:658:in `block_child'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:639:in `block'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:632:in `ruleset'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:657:in `block_child'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:647:in `block_contents'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:42:in `parse'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/engine.rb:403:in `_to_tree'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/engine.rb:309:in `to_tree'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/lib/compass/sass_compiler.rb:40:in `compile!'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/lib/compass/commands/update_project.rb:49:in `perform'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/lib/compass/commands/base.rb:18:in `execute'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/bin/compass:52:in `block in <main>'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `call'
+/Users/jcontreras/Desktop/CodeKit 4.39.56 PM.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"			color\": expected \";\", was \": blue;\"\A         on line 13 of /Users/jcontreras/webdev/mysite/janellecontrerasSite/sass/components/janelleStylesTakeTwo.scss\A         from line 28 of /Users/jcontreras/webdev/mysite/janellecontrerasSite/sass/screen.scss\A \A 8: 		border-bottom: 2px solid black;\A 9: 		.headerRow {\A 10: 			width: 70%;\A 11: 			margin-left: 15%;\A 12: 			height: 100%\A 13: 			color: blue;\A 14: 			display: table;\A 15: 			.headerItem {\A 16: 				display: table-cell;\A 17: 				vertical-align: bottom;\A 18: 			}"; }
