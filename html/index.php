@@ -133,7 +133,7 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="messagerow">
-                                                <label for="cmessage">Message</label>
+                                                <label for="cmessage">Message</label><br>
                                                 <textarea name="cmessage" id="cmessage" cols="100%" rows="8" tabindex="3" class="required" required></textarea>
                                         </div>
                                         <p>
