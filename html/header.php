@@ -16,9 +16,9 @@
 
 <body class="secondVersion">
                 <div class="topBackground">
-                        <div class="headerRow">
+                        <div class="headerRow myName">
                                 <div class="col-sm-8 headerItem">
-                                        Janelle Contreras
+                                        <a href="janellecontreras.com">JANELLE CONTRERAS</a>
                                 </div>
                                 <div class="col-sm-4 headerItem">
                                         <a href="http://www.linkedin.com/in/janellecontreras">
