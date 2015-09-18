@@ -117,9 +117,37 @@
                 <div class="windowwidth">click for window width</div>
         </div><!-- panelWrap -->
         <div class="panelWrap" id="contactForm">
-                <div class="row sectionHeading">
-                        Form goes here
-                </div><!-- sectionHeading -->
+                <!-- Contact Form -->
+                <div class="contactcontent">
+                        <div id="contact-form">
+                                <form action="http://www.janellecontreras.com/sendmess.php" id="contactform" method="post" class="contactsubmit">
+                                        <div class="formrow">
+                                                <div class="one-half">
+                                                        <label for="cname">Name</label>
+                                                        <input type="text" name="cname" id="cname" minlength="2" size="22" tabindex="1" class="required" required/>
+                                                </div>
+                                                <div class="one-half column-last">
+                                                        <label for="cemail">Email</label>
+                                                        <input type="email" name="cemail" id="cemail" size="22" tabindex="1" class="required email" required/>
+                                                </div>
+                                        </div>
+                                        <div class="messagerow">
+                                                <label for="cmessage">Message</label>
+                                                <textarea name="cmessage" id="cmessage" cols="100%" rows="8" tabindex="3" class="required" required></textarea>
+                                        </div>
+                                        <p>
+                                            <label for="csubmit"></label>
+                                            <input type="submit" name="csubmit" id="csubmit" class="button" value="Send Message"/>
+                                        </p>
+                                        <input type="hidden" name="csubmitted" id="csubmitted" value="true" />
+                                </form>
+                                <script>
+                                        $("#contactform").validate();
+                                </script>
+                        </div>
+                        <div class="clear"></div>
+                </div>
+                <!-- END Contact Form --> 
         
                 <div class="windowwidth">click for window width</div>
         </div><!-- panelWrap -->
