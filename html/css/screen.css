@@ -252,11 +252,11 @@ body.secondVersion {
         text-align: left; }
         body.secondVersion .bodywrap .panelWrap .sectionText p {
           color: #727878; }
-      body.secondVersion .bodywrap .panelWrap logosRow {
+      body.secondVersion .bodywrap .panelWrap .logosRow {
         width: 91%; }
-        body.secondVersion .bodywrap .panelWrap logosRow logoBlock {
+        body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock {
           width: 13%; }
-          body.secondVersion .bodywrap .panelWrap logosRow logoBlock img {
+          body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock img {
             width: 96%;
             margin-left: 2%; }
     body.secondVersion .bodywrap .selected {
