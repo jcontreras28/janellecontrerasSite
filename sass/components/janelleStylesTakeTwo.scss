@@ -6,6 +6,11 @@ body.secondVersion {
 		width: 100%;
 		background-color: #aaa;
 		border-bottom: 2px solid black;
+		.headerRow {
+			width: 70%;
+			margin-left: 15%;
+			color: blue;
+		}
 	}
 	.bottomBackground {
 		height: 10000px;

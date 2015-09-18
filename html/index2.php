@@ -21,7 +21,7 @@
         </head>
         <body class="secondVersion">
                 <div class="topBackground">
-                        <div class="row">
+                        <div class="headerRow">
                                 <div class="col-sm-8">
                                         Janelle Contreras
                                 </div>

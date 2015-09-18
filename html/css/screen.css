@@ -189,6 +189,10 @@ body.secondVersion {
     width: 100%;
     background-color: #aaa;
     border-bottom: 2px solid black; }
+    body.secondVersion .topBackground .headerRow {
+      width: 70%;
+      margin-left: 15%;
+      color: blue; }
   body.secondVersion .bottomBackground {
     height: 10000px;
     background-image: url("http://janellecontreras.com/images/greyWoodBack2.jpg");
