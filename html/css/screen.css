@@ -254,7 +254,8 @@ body.secondVersion {
           color: #727878; }
       body.secondVersion .bodywrap .panelWrap .logosRow {
         width: 91%;
-        margin-left: 4.5%; }
+        margin-left: 4.5%;
+        float: left; }
         body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock {
           width: 13%; }
           body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock img {
