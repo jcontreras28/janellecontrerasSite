@@ -113,6 +113,37 @@ body.secondVersion {
 		    		}
 		    	}
 		    }
+
+		    #contactform {
+		    	margin: 0;
+		    	padding: 0;
+		    	vertical-align: baseline;
+		    	.formrow {
+		    		.one-half {
+		    			float:left;
+		    			margin-bottom: 1em;
+		    			width: 50%;
+		    		}
+		    		.column-last {
+		    			clear: rigth;
+		    			margin-right: 0;
+		    		}
+		    		.messagerow {
+		    			padding-bottom: 1em;
+		    			label {
+		    				display: block;
+		    				margin: 0 0 6px;
+		    			}
+		    			textarea {
+		    				border-color: #cccccc;
+						    border-style: solid;
+						    border-width: 1px;
+						    margin: 0;
+						    padding: 0.5em;
+		    			}
+		    		}
+		    	}
+		    }
 		}
 		.selected {
 			display: block;
