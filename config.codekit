@@ -106,6 +106,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/html\/images\/logos\/cheese-balls-product-closeup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33062,
+		"inputAbbreviatedPath": "\/html\/images\/logos\/cheese-balls-product-closeup.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/logos\/cheese-balls-product-closeup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/logos\/codekit-logo-dark@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
