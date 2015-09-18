@@ -23,9 +23,16 @@
                 });
 
                 $('.fa-envelope').click(function() {
+
+                        // updating menu
                         var oldTab = $('.menuItemSelected');
                         oldTab.removeClass('menuItemSelected');
                         $('#contactForm').addClass("menuItemSelected");
+
+                        // updating page
+                        var oldPanel = $('.selected')
+                        oldPanel.removeClass("selected")
+                        $('#contactForm').addClass("selected");
                 });
 
                 $('.windowwidth').click(function(){
