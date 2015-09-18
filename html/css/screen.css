@@ -200,7 +200,10 @@ body.secondVersion {
     left: 10%;
     width: 80%;
     background-color: white;
-    height: 600px; }
+    height: 600px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75); }
     body.secondVersion .bodywrap .mainNav {
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
