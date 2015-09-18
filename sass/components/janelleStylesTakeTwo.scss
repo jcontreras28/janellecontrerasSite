@@ -62,5 +62,33 @@ body.secondVersion {
 		    	}
 		    }
 	    }
+	    img {
+	    	width: 95%;
+	    }
+	    .panelWrap {
+	    	display: none;
+
+		    .sectionTitle {
+		        text-align: left;
+		        font-style: italic;
+		        color: $siteGreen;
+		    }
+		    .sectionBar {
+		        background-color: $siteDGrey;
+		        margin-left: 0px;
+		    }
+		    .sectionText {
+		        text-align: left;
+		        p {
+		        	color: $siteLtGrey;
+		        }
+		    }
+		    .logos {
+		    	margin-bottom: 30px;
+		    }
+		}
+		.selected {
+			display: block;
+		}
 	}
 }

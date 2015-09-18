@@ -232,3 +232,22 @@ body.secondVersion {
           -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
           -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75); }
+    body.secondVersion .bodywrap img {
+      width: 95%; }
+    body.secondVersion .bodywrap .panelWrap {
+      display: none; }
+      body.secondVersion .bodywrap .panelWrap .sectionTitle {
+        text-align: left;
+        font-style: italic;
+        color: #22a39f; }
+      body.secondVersion .bodywrap .panelWrap .sectionBar {
+        background-color: #434242;
+        margin-left: 0px; }
+      body.secondVersion .bodywrap .panelWrap .sectionText {
+        text-align: left; }
+        body.secondVersion .bodywrap .panelWrap .sectionText p {
+          color: #727878; }
+      body.secondVersion .bodywrap .panelWrap .logos {
+        margin-bottom: 30px; }
+    body.secondVersion .bodywrap .selected {
+      display: block; }
