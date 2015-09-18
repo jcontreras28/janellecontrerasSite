@@ -202,7 +202,8 @@ body.secondVersion {
         font-size: 3em;
         color: white;
         font-weight: bold;
-        font-style: italic; }
+        font-style: italic;
+        margin-top: 100px; }
         body.secondVersion .topBackground .headerRow .myName a {
           text-decoration: none; }
   body.secondVersion .bottomBackground {

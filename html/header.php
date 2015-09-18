@@ -18,7 +18,7 @@
                 <div class="topBackground">
                         <div class="headerRow">
                                 <div class="col-sm-8 headerItem myName">
-                                        <a href="janellecontreras.com">JANELLE CONTRERAS</a>
+                                        <a href="janellecontreras.com">Janelle Contreras</a>
                                 </div>
                                 <div class="col-sm-4 headerItem">
                                         <a href="http://www.linkedin.com/in/janellecontreras">
