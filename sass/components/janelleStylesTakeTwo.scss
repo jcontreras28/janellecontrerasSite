@@ -92,8 +92,15 @@ body.secondVersion {
 		        	color: $siteLtGrey;
 		        }
 		    }
-		    .logos {
-		    	margin-bottom: 30px;
+		    logosRow {
+		    	width: 91%;
+		    	logoBlock {
+		    		width: 13%;
+		    		img {
+		    			width: 96%;
+		    			margin-left: 2%;
+		    		}
+		    	}
 		    }
 		}
 		.selected {
