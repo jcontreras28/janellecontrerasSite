@@ -259,15 +259,12 @@ body.secondVersion {
       body.secondVersion .bodywrap .panelWrap .logosRow {
         text-align: center;
         width: 91%;
-        margin-left: 4.5%; }
-        body.secondVersion .bodywrap .panelWrap .logosRow:before {
-          display: inline-block;
-          height: 100%;
-          vertical-align: middle; }
+        margin-left: 4.5%;
+        display: table; }
         body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock {
           width: 13%;
           float: left;
-          display: inline-block;
+          display: table-cell;
           vertical-align: middle; }
           body.secondVersion .bodywrap .panelWrap .logosRow .logoBlock img {
             width: 96%;

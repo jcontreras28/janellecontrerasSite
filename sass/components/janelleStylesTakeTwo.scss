@@ -101,16 +101,12 @@ body.secondVersion {
 		    	text-align: center;
 		    	width: 91%;
 		    	margin-left: 4.5%;
+		    	display: table;
 
-		    	&:before {
-		    		display: inline-block;
-		    		height: 100%;
-		    		vertical-align: middle;
-		    	}
 		    	.logoBlock {
 		    		width: 13%;
 		    		float: left;
-		    		display: inline-block;
+		    		display: table-cell;
 		    		vertical-align: middle;
 		    		img {
 		    			width: 96%;
