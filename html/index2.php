@@ -47,7 +47,7 @@
                                         </div>
                                         <div class="col-md-9">
                                                 <div class="sectionTitle">
-                                                        What can I do?  
+                                                        <h2>What can I do?</h2>  
                                                         <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
                                                         <p>For example, I built this site as an Amazon web server with Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
                                                                 I pointed it to my domain name using Route 53.
