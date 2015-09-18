@@ -232,6 +232,24 @@ body.secondVersion {
           -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
           -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75); }
+    body.secondVersion .bodywrap .mobileNav {
+      font-family: Tahoma, Geneva, sans-serif;
+      font-weight: bold;
+      text-align: right;
+      background-color: #434242;
+      color: white;
+      width: 100%; }
+      body.secondVersion .bodywrap .mobileNav .sandMenu {
+        background-color: #434242;
+        padding-right: 10px;
+        cursor: pointer; }
+      body.secondVersion .bodywrap .mobileNav .mobileItems {
+        border-top: 2px solid #22a39f;
+        background-color: #434242;
+        width: 50%;
+        margin-left: 50%;
+        padding-right: 5px;
+        border-radius: 0px 0px 0px 5px; }
     body.secondVersion .bodywrap img {
       width: 95%; }
     body.secondVersion .bodywrap .panelWrap {
