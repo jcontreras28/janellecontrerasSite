@@ -190,6 +190,7 @@ body.secondVersion {
     background-color: #aaa;
     border-bottom: 2px solid black; }
   body.secondVersion .bottomBackground {
+    height: 10000px;
     background-image: url("http://janellecontreras.com/images/greyWoodBack2.jpg");
     background-color: #aaa; }
   body.secondVersion .bodywrap {
@@ -257,9 +258,9 @@ body.secondVersion {
 
 @media (min-width: 790px) and (max-width: 600000px) {
   body.secondVersion .topBackground {
-    height: 100px; }
+    height: 190px; }
   body.secondVersion .bodywrap {
-    top: 190px;
+    top: 110px;
     left: 15%;
     width: 75%; }
     body.secondVersion .bodywrap .mainNav {
