@@ -3,7 +3,6 @@
         var jPageType = "<?php Print($pageType); ?>";
 
         if(jPageType.length > 1) {
-                alert("I have a pageType param! = "+jPageType);
 
                 // updating menu
                 var oldTab = $('.menuItemSelected');
