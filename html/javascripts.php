@@ -1,55 +1,59 @@
 <script type="text/javascript">
-                $('.tabItem').click(function() {
-                        var theId = $(this).attr('id');
-                        theId = theId.replace("li", "");
+        alert("Im here!!!!");
 
-                        // updating menu
-                        var oldTab = $('.menuItemSelected');
-                        oldTab.removeClass('menuItemSelected');
+        $('.tabItem').click(function() {
+                var theId = $(this).attr('id');
+                theId = theId.replace("li", "");
 
-                        $(this).addClass("menuItemSelected");
+                // updating menu
+                var oldTab = $('.menuItemSelected');
+                oldTab.removeClass('menuItemSelected');
 
-                        // updating page
-                        var oldPanel = $('.selected')
-                        oldPanel.removeClass("selected")
+                $(this).addClass("menuItemSelected");
+
+                // updating page
+                var oldPanel = $('.selected')
+                oldPanel.removeClass("selected")
                         
-                        var newPanel = $('#' + theId);
-                        newPanel.addClass("selected");
-                });
+                var newPanel = $('#' + theId);
+                newPanel.addClass("selected");
+        });
 
-                $('.fa-envelope').click(function() {
+        $('.fa-envelope').click(function() {
 
-                        // updating menu
-                        var oldTab = $('.menuItemSelected');
-                        oldTab.removeClass('menuItemSelected');
-                        $('#contactForm').addClass("menuItemSelected");
+                // updating menu
+                var oldTab = $('.menuItemSelected');
+                oldTab.removeClass('menuItemSelected');
+                $('#contactForm').addClass("menuItemSelected");
 
-                        // updating page
-                        var oldPanel = $('.selected')
-                        oldPanel.removeClass("selected")
-                        $('#contactForm').addClass("selected");
-                });
-                $('.fa-github').click(function() {
+                // updating page
+                var oldPanel = $('.selected')
+                oldPanel.removeClass("selected")
+                $('#contactForm').addClass("selected");
+        });
 
-                        // updating menu
-                        var oldTab = $('.menuItemSelected');
-                        oldTab.removeClass('menuItemSelected');
-                        $('#gitRepo').addClass("menuItemSelected");
+        $('.fa-github').click(function() {
 
-                        // updating page
-                        var oldPanel = $('.selected')
-                        oldPanel.removeClass("selected")
-                        $('#gitRepo').addClass("selected");
-                });
+                // updating menu
+                var oldTab = $('.menuItemSelected');
+                oldTab.removeClass('menuItemSelected');
+                $('#gitRepo').addClass("menuItemSelected");
 
-
-                $('.windowwidth').click(function(){
-                        alert("width= "+$(window).width());
-                });
-
-                $('.menuSandwhich').click(function() {
-                        $('.mobileItems').slideToggle(350);
-                });
+                // updating page
+                var oldPanel = $('.selected')
+                oldPanel.removeClass("selected")
+                $('#gitRepo').addClass("selected");
+        });
 
 
-        </script>
+        $('.windowwidth').click(function(){
+                alert("width= "+$(window).width());
+        });
+
+        $('.menuSandwhich').click(function() {
+                $('.mobileItems').slideToggle(350);
+        });
+
+
+</script>
+
