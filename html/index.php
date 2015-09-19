@@ -126,13 +126,14 @@
                     <!-- END Contact Form --> 
             </div><!-- panelWrap -->
         </div><!-- bodyWrap -->
+    </div>
 
         <div class="bottomBackground">
         </div><!-- bottomBackground -->
 
         <?php require 'footer.php'; ?>
        
-        
+
     </body>
      <?php require 'javascripts.php'; ?>
     
