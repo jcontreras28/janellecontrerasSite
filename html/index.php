@@ -126,7 +126,7 @@
         <div class="bottomBackground">
         </div><!-- bottomBackground -->
         <?php require 'footer.php'; ?>
-        <?php require 'javscripts.php'; ?>
+        <?php require 'javascripts.php'; ?>
     </body>
 
     
