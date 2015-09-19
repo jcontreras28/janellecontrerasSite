@@ -2,7 +2,7 @@
 
         var jPageType = "<?php Print($pageType); ?>";
 
-        if(jPageType.length() > 1) {
+        if(jPageType.length > 1) {
                 alert("I have a pageType param!");
         }
 
