@@ -18,7 +18,7 @@
                         
             <?php require 'skillsPanel.php'; ?>
 
-            <!--<?php require 'experiencePanel.php'; ?>-->
+            <?php require 'experiencePanel.php'; ?>
 
             <?php require 'dreamPanel.php'; ?>
 
