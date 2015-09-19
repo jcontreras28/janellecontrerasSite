@@ -71,7 +71,7 @@
                                             <input type="hidden" name="csubmitted" id="csubmitted" value="true" />
                                     </form>
                                     <script>
-                                            $("#contactform").validate();
+                                           // $("#contactform").validate();
                                     </script>
                             </div>
                             <div class="clear"></div>
