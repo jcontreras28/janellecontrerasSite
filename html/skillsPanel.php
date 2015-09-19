@@ -7,7 +7,7 @@
                         <div class="sectionTitle">
                                 <h2>What can I do?</h2>  
                                 <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
-                                <p>For example, I built this site as using Amazon.  I chose Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
+                                <p>For example, I built this site using Amazon.  I chose Ubuntu Linux, Apache for a server, MySQL as the database and Php of course.  
                                                                 I pointed it to my domain name using Route 53.
                                                                 The content is stored in a repo up on github which has a webhook to call a deploy script on my webserver whenever I push new content from my local machine.  
                                                                 This script then goes and grabs the current site content.  Pretty basic setup that we use currently on most projects within my current company.
