@@ -121,6 +121,7 @@
                 </div>
                 <!-- END Contact Form --> 
         </div><!-- panelWrap -->
+    </div>
 
         <div class="bottomBackground">
         </div><!-- bottomBackground -->
