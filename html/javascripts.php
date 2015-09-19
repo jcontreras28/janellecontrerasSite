@@ -8,7 +8,7 @@
                 // updating menu
                 var oldTab = $('.menuItemSelected');
                 oldTab.removeClass('menuItemSelected');
-                $('#'+jPageType).addClass("menuItemSelected");
+                $('#li'+jPageType).addClass("menuItemSelected");
 
                 // updating page
                 var oldPanel = $('.selected')
