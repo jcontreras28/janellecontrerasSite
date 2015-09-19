@@ -1,5 +1,4 @@
 <script type="text/javascript">
-        alert("Im here!!!!");
 
         $('.tabItem').click(function() {
                 var theId = $(this).attr('id');

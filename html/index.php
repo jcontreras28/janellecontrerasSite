@@ -131,10 +131,10 @@
         </div><!-- bottomBackground -->
 
         <?php require 'footer.php'; ?>
-        <?php require 'javascripts.php'; ?>
+       
         
     </body>
-
+     <?php require 'javascripts.php'; ?>
     
 
 </html>
