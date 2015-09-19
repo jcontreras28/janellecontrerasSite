@@ -194,7 +194,8 @@ body.secondVersion {
       margin-left: 15%;
       height: 100%;
       color: #22a39f;
-      display: table; }
+      display: table;
+      cursor: pointer; }
       body.secondVersion .topBackground .headerRow .headerItem {
         display: table-cell;
         vertical-align: bottom;
