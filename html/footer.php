@@ -34,6 +34,19 @@
                         oldPanel.removeClass("selected")
                         $('#contactForm').addClass("selected");
                 });
+                $('.fa-github').click(function() {
+
+                        // updating menu
+                        var oldTab = $('.menuItemSelected');
+                        oldTab.removeClass('menuItemSelected');
+                        $('#gitRepo').addClass("menuItemSelected");
+
+                        // updating page
+                        var oldPanel = $('.selected')
+                        oldPanel.removeClass("selected")
+                        $('#gitRepo').addClass("selected");
+                });
+
 
                 $('.windowwidth').click(function(){
                         alert("width= "+$(window).width());

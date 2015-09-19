@@ -21,6 +21,7 @@
                                         <a href="janellecontreras.com">Janelle Contreras</a>
                                 </div>
                                 <div class="col-sm-4 headerItem">
+                                        <i class="fa fa-github fa-4x"></i>
                                         <a href="http://www.linkedin.com/in/janellecontreras">
                                                 <i class="fa fa-linkedin-square fa-4x"></i>
                                         </a>
