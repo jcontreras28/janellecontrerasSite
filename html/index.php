@@ -126,9 +126,10 @@
         <div class="bottomBackground">
         </div><!-- bottomBackground -->
         <?php require 'footer.php'; ?>
+        <?php require 'javscripts.php'; ?>
     </body>
 
-    <?php require 'javscripts.php'; ?>
+    
 
 </html>
 
