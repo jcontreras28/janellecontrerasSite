@@ -4,6 +4,18 @@
 
         if(jPageType.length > 1) {
                 alert("I have a pageType param!");
+
+                // updating menu
+                var oldTab = $('.menuItemSelected');
+                oldTab.removeClass('menuItemSelected');
+                $(jPageType).addClass("menuItemSelected");
+
+                // updating page
+                var oldPanel = $('.selected')
+                oldPanel.removeClass("selected")
+                        
+                var newPanel = $('#' + jPageType);
+                newPanel.addClass("selected");
         }
 
         $('.tabItem').click(function() {
