@@ -1,6 +1,6 @@
 <?php
 
-require './phpmailer/PHPMailerAutoload.php';
+//require './phpmailer/PHPMailerAutoload.php';
 
 $to = 'janellec@bendbroadband.com';
 $subject = 'contact email from janellecontreras.com';
@@ -10,7 +10,7 @@ $headers = "From: janellecontreras.com \r\n" .
 			'X-Mailer: PHP/'.phpversion();
 mail($to, $subject, $message, $headers);
 
-include 'thankYou.php';
+include 'thankyou.php';
 
 
 ?>

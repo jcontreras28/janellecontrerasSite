@@ -120,7 +120,7 @@
                 <!-- Contact Form -->
                 <div class="contactcontent">
                         <div id="contact-form">
-                                <form action="http://www.janellecontreras.com/sendmess.php" id="contactform" method="post" class="contactsubmit">
+                                <form action="http://www.janellecontreras.com/sendMess.php" id="contactform" method="post" class="contactsubmit">
                                         <div class="topRow">
                                                 <div class="nameField">
                                                         <label for="name">Name</label>
