@@ -2,7 +2,9 @@
 
         var jPageType = "<?php Print($pageType); ?>";
 
-        alert("type"+jPageType);
+        if(jPageType.length() > 1) {
+                alert("I have a pageType param!");
+        }
 
         $('.tabItem').click(function() {
                 var theId = $(this).attr('id');
