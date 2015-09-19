@@ -1,5 +1,5 @@
 <script type="text/javascript">
-
+        alert("heck ya");
         $('.tabItem').click(function() {
                 var theId = $(this).attr('id');
                 theId = theId.replace("li", "");
