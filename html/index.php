@@ -1,4 +1,5 @@
 <?php
+    $pageType = $_GET["pageType"];
 ?>
 
 <!doctype html>

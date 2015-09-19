@@ -1,5 +1,9 @@
 <script type="text/javascript">
 
+        var jPageType = "<?php Print($pageType); ?>";
+
+        alert("type"+jPageType);
+
         $('.tabItem').click(function() {
                 var theId = $(this).attr('id');
                 theId = theId.replace("li", "");
