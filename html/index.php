@@ -130,7 +130,7 @@
         <div class="bottomBackground">
         </div><!-- bottomBackground -->
 
-        <?php require 'footer.php'; ?>
+        
        
 
     </body>
