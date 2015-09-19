@@ -22,10 +22,10 @@ body.secondVersion {
 				color: white;
 				font-weight: bold;
 				font-style: italic;
-
-				a {
-					text-decoration: none;
-				}
+			}
+			a {
+				text-decoration: none;
+				color: $siteGreen;
 			}
 		}
 	}

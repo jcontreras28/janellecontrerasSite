@@ -204,8 +204,9 @@ body.secondVersion {
         color: white;
         font-weight: bold;
         font-style: italic; }
-        body.secondVersion .topBackground .headerRow .myName a {
-          text-decoration: none; }
+      body.secondVersion .topBackground .headerRow a {
+        text-decoration: none;
+        color: #22a39f; }
   body.secondVersion .bottomBackground {
     height: 10000px;
     background-image: url("http://janellecontreras.com/images/greyWoodBack2.jpg");
