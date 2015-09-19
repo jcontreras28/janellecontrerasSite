@@ -197,13 +197,13 @@ body.secondVersion {
       display: table; }
       body.secondVersion .topBackground .headerRow .headerItem {
         display: table-cell;
-        vertical-align: bottom; }
+        vertical-align: bottom;
+        margin-top: 40px; }
       body.secondVersion .topBackground .headerRow .myName {
         font-size: 3em;
         color: white;
         font-weight: bold;
-        font-style: italic;
-        margin-top: 100px; }
+        font-style: italic; }
         body.secondVersion .topBackground .headerRow .myName a {
           text-decoration: none; }
   body.secondVersion .bottomBackground {
