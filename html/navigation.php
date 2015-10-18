@@ -9,8 +9,12 @@
 </div><!-- mainNav -->
 <div class="mobileNav">
     <div class="sandMenu">
-        <div class="mobileName">Janelle C.</div>
-        <i class="fa fa-bars fa-3x menuSandwhich"></i>
+        <div class="row">
+            <div class="col-xs-9 mobileName">Janelle C.</div>
+            <div class="col-xs-3">
+                <i class="fa fa-bars fa-3x menuSandwhich"></i>
+            </div>
+        </div>
     </div>
 
     <div class="mobileItems" style="display:none">
