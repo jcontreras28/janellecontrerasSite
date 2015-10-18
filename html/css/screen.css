@@ -257,8 +257,6 @@ body.secondVersion {
       body.secondVersion .bodywrap .mobileNav .mobileItems {
         border-top: 2px solid #22a39f;
         background-color: #434242; }
-    body.secondVersion .bodywrap img {
-      width: 95%; }
     body.secondVersion .bodywrap .panelWrap {
       display: none;
       margin: 30px; }
@@ -304,6 +302,9 @@ body.secondVersion {
     top: 110px;
     left: 15%;
     width: 70%; }
+    body.secondVersion .bodywrap .panelWrap .sectionHeading .meImage {
+      width: 94%;
+      margin-left: 3%; }
     body.secondVersion .bodywrap .mainNav {
       font-size: 2em;
       line-height: 2em;

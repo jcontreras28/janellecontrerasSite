@@ -1,7 +1,7 @@
 <div class="panelWrap" id="dream">
     <div class="row sectionHeading">
         <div class="col-md-3">
-            <img src="./images/oscon.jpg">
+            <img class="meImage" src="./images/oscon.jpg">
         </div>
         <div class="col-md-9">
             <div class="sectionTitle">

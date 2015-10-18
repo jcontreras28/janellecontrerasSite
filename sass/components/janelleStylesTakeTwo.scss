@@ -96,9 +96,7 @@ body.secondVersion {
 	    		background-color: $siteDGrey;
 	    	}
 		}
-	    img {
-	    	width: 95%;
-	    }
+	    
 	    .panelWrap {
 	    	display: none;
 	    	margin: 30px;
@@ -167,6 +165,15 @@ body.secondVersion {
 			top: 110px;
 			left: 15%;
 			width: 70%;
+
+			.panelWrap {
+				.sectionHeading {
+					.meImage {
+				    	width: 94%;
+				    	margin-left: 3%;
+				    }
+				}
+			}
 
 			.mainNav {
 		    	font-size: 2em;
