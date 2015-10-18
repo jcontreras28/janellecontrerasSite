@@ -59,7 +59,7 @@ body.secondVersion {
           display: inline;
           cursor: pointer; }
           body.secondVersion .bodywrap .mainNav ul li:hover {
-            bakcground-color: #391; }
+            background-color: #391; }
         body.secondVersion .bodywrap .mainNav ul .menuItemSelected {
           background-color: white;
           color: #333;
