@@ -1,9 +1,9 @@
 <div class="panelWrap selected" id="skills">
         <div class="row sectionHeading">
-                <div class="col-xs-3">
+                <div class="col-sm-3">
                         <img src="./images/suncar.jpg">
                 </div>
-                <div class="col-xs-9">
+                <div class="col-sm-9">
                         <div class="sectionTitle">
                                 <h2>What can I do?</h2>  
                                 <p><strong>ANYTHING!</strong> First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
