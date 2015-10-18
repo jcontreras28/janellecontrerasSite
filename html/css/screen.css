@@ -9,8 +9,8 @@ body.secondVersion {
   padding: 0px; }
   body.secondVersion .topBackground {
     width: 100%;
-    background-color: #aaa;
-    border-bottom: 2px solid orange; }
+    background-color: #f00;
+    border-bottom: 2px solid black; }
     body.secondVersion .topBackground .headerRow {
       width: 70%;
       margin-left: 15%;
