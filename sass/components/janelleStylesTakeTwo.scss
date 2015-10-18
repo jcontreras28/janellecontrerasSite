@@ -218,6 +218,9 @@ body.secondVersion {
 			}
 			.mobileNav {
 				display: inline;
+				.mobileName {
+					color: $siteGreen;
+				}
 			}
 			.meImage {
 				width: 50%;

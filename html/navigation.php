@@ -8,6 +8,7 @@
     </ul><!-- mainNavItems -->
 </div><!-- mainNav -->
 <div class="mobileNav">
+    <div class="mobileName">Janelle C.</div>
     <div class="sandMenu"><i class="fa fa-bars fa-3x menuSandwhich"></i></div>
 
     <div class="mobileItems" style="display:none">

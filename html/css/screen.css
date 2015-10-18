@@ -331,6 +331,8 @@ body.secondVersion {
       display: none; }
     body.secondVersion .bodywrap .mobileNav {
       display: inline; }
+      body.secondVersion .bodywrap .mobileNav .mobileName {
+        color: #22a39f; }
     body.secondVersion .bodywrap .meImage {
       width: 50%;
       margin-left: 25%; } }
