@@ -10,7 +10,7 @@ body.secondVersion {
   body.secondVersion .topBackground {
     width: 100%;
     background-color: #aaa;
-    border-bottom: 2px solid black; }
+    border-bottom: 2px solid orange; }
     body.secondVersion .topBackground .headerRow {
       width: 70%;
       margin-left: 15%;
