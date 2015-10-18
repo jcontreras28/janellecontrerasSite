@@ -1,7 +1,7 @@
 <div class="panelWrap selected" id="skills">
         <div class="row sectionHeading">
                 <div class="col-sm-3">
-                        <img src="./images/suncar.jpg">
+                        <img class="meImage" src="./images/suncar.jpg">
                 </div>
                 <div class="col-sm-9">
                         <div class="sectionTitle">

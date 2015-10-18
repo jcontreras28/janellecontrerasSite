@@ -329,4 +329,7 @@ body.secondVersion {
     body.secondVersion .bodywrap .mainNav {
       display: none; }
     body.secondVersion .bodywrap .mobileNav {
-      display: inline; } }
+      display: inline; }
+    body.secondVersion .bodywrap .meImage {
+      width: 50%;
+      margin-left: 25%; } }
