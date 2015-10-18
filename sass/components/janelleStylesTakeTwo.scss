@@ -218,8 +218,11 @@ body.secondVersion {
 			}
 			.mobileNav {
 				display: inline;
-				.mobileName {
-					color: $siteGreen;
+				.sandMenu {
+					color: red;
+					.mobileName {
+						color: $siteGreen;
+					}
 				}
 			}
 			.meImage {
