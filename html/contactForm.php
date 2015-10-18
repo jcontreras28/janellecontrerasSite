@@ -1,6 +1,7 @@
 <div class="panelWrap" id="contactForm"><!-- Contact Form -->
     <div class="contactcontent">
         <div id="contact-form">
+            <?php echo $_SERVER["HTTP_HOST"]; ?>
             <form action="http://janellecontreras.com/sendMess.php" id="contactform" method="post" class="contactsubmit">
                 <div class="topRow">
                     <div class="nameField">
