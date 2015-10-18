@@ -219,7 +219,7 @@ body.secondVersion {
 			.mobileNav {
 				display: inline;
 				.sandMenu {
-					color: red;
+					color: red !important;
 					.mobileName {
 						color: $siteGreen;
 					}

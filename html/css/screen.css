@@ -154,7 +154,7 @@ body.secondVersion {
     body.secondVersion .bodywrap .mobileNav {
       display: inline; }
       body.secondVersion .bodywrap .mobileNav .sandMenu {
-        color: red; }
+        color: red !important; }
         body.secondVersion .bodywrap .mobileNav .sandMenu .mobileName {
           color: #22a39f; }
     body.secondVersion .bodywrap .meImage {
