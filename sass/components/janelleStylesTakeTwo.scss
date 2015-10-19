@@ -4,7 +4,7 @@ body.secondVersion {
 
 	.topBackground {
 		width: 100%;
-		background-color: #f00; //#aaa;
+		background-color: #aaa;
 		border-bottom: 2px solid black;
 		.headerRow {
 			width: 70%;
@@ -219,7 +219,6 @@ body.secondVersion {
 			.mobileNav {
 				display: inline;
 				.sandMenu {
-					color: red !important;
 					.mobileName {
 						color: $siteGreen;
 					}
