@@ -1,5 +1,9 @@
 <?php
-    $pageType = $_GET["pageType"];
+    if(isset($_GET["pageType"])) {
+        $pageType = $_GET["pageType"];
+    } else {
+        $pageType = "main";
+    }
 ?>
 
 <!doctype html>
