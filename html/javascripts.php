@@ -55,21 +55,25 @@
 
                 var theId = $(this).attr('id');
                 theId = theId.replace("li", "");
+                if (theId=="contact"){
+                        $( ".fa-envelope" ).click();
+                } else {
 
-                // updating menu
-                var oldTab = $('.menuItemSelected');
-                oldTab.removeClass('menuItemSelected');
+                        // updating menu
+                        var oldTab = $('.menuItemSelected');
+                        oldTab.removeClass('menuItemSelected');
 
-                $(this).addClass("menuItemSelected");
+                        $(this).addClass("menuItemSelected");
 
-                // updating page
-                var oldPanel = $('.selected')
-                oldPanel.removeClass("selected")
-                        
-                var newPanel = $('#' + theId);
-                newPanel.addClass("selected");
+                        // updating page
+                        var oldPanel = $('.selected')
+                        oldPanel.removeClass("selected")
+                                
+                        var newPanel = $('#' + theId);
+                        newPanel.addClass("selected");
 
-                sizeBackground();
+                        sizeBackground();
+                }
         });
 
         $('.fa-envelope').click(function() {
@@ -107,7 +111,7 @@
 
                 sizeBackground();
         });
-        
+
         $('.mobileName').click(function() {
                 // updating menu
                 var oldTab = $('.menuItemSelected');

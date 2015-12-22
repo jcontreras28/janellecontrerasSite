@@ -23,6 +23,6 @@
         <div class="tabItem" id="lidream">Dream</div>
         <div class="tabItem" id="liabout">About</div>
         <div class="tabItem" id="licontact">Contact</div>
-        <div class="tabItem" id="lilinked">LinkedIn</div>
+        <a href="http://www.linkedin.com/in/janellecontreras" target="_blank"><div class="almTabItem" id="lilinked">LinkedIn</div></a>
     </div><!-- mobileItems -->
 </div><!-- mobileNav -->
