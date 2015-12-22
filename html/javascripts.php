@@ -4,7 +4,7 @@
                 var theHeight = $('.selected').height() + 100;
                 var winWidth = $(window).width();
                 var winHeight = $(window).height();
-                alert("width = "+winWidth);
+
                 if (winWidth > 800) {
                         winHeight = winHeight - 215;
                 }
@@ -31,6 +31,7 @@
                 var newPanel = $('#' + jPageType);
                 newPanel.addClass("selected");
 
+                alert("here1");
                 sizeBackground();
         }
 
@@ -52,6 +53,7 @@
                 var newPanel = $('#' + theId);
                 newPanel.addClass("selected");
 
+                alert("here1");
                 sizeBackground();
         });
 
