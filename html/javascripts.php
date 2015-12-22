@@ -7,11 +7,17 @@
 
                 if (winWidth > 800) {
                         winHeight = winHeight - 215;
-                }
-                if (winHeight > theHeight) {
-                        $('.bottomBackground').height(winHeight+"px");
-                }else {
-                        $('.bottomBackground').height(theHeight+"px");
+                        if (winHeight > theHeight) {
+                                $('.bottomBackground').height(winHeight+"px");
+                        }else {
+                                $('.bottomBackground').height(theHeight+"px");
+                        }
+                } else {
+                        if (winHeight > theHeight + 100) {
+                                $('.bottomBackground').height(winHeight+"px");
+                        }else {
+                                $('.bottomBackground').height(theHeight+"px");
+                        }
                 }
         }
 
