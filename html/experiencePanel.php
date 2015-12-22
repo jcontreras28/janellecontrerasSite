@@ -60,8 +60,14 @@ able to work at a very low logic level with systems such as remote control IR bl
 
 
             <div class="resSecTitle">Education</div> 
-            <div class="resText">
-            </div>
+            <div class="resJobTitle">Ellis University</div>
+            <div class="resText">Masters in Computer Science - June 2010</div>
+            <div class="resJobTitle">Oregon State University, Cascades</div>
+            <div class="resText">Education Double-Degree, secondary Mathematics - June 2007</div>
+            <div class="resJobTitle">University of West Florida</div>
+            <div class="resText">B.S. in Computer Science - August 1999</div>
+            <div class="resJobTitle">Portland State University</div>
+            <div class="resText">B.S. in Mathematics - August 1996</div>
         </div><!-- limitWidth -->
     </div><!-- sectionText -->
 
