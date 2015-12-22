@@ -178,6 +178,9 @@ body.secondVersion {
         text-align: left;
         margin-top: 2%;
         left: 10%; }
+      body.secondVersion .bodywrap .mobileNav .tabItem {
+        font-size: 1.2em;
+        margin: 2%; }
     body.secondVersion .bodywrap .meImage {
       width: 50%;
       margin-left: 25%; }
