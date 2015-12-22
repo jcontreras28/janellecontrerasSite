@@ -172,7 +172,9 @@ body.secondVersion {
     body.secondVersion .bodywrap .mobileNav {
       display: inline; }
       body.secondVersion .bodywrap .mobileNav .sandMenu .mobileName {
-        color: #22a39f; }
+        color: #22a39f;
+        text-align: center;
+        margin-top: 2%; }
     body.secondVersion .bodywrap .meImage {
       width: 50%;
       margin-left: 25%; } }
