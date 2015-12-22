@@ -2,7 +2,7 @@
 
         var jPageType = "<?php Print($pageType); ?>";
 
-        echo "jPageType = ".$jPageType;
+        alert("jPageType = "+jPageType);
 
         if(jPageType.length > 1) {
 
