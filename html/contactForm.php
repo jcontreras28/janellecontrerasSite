@@ -7,6 +7,7 @@
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name" minlength="2" size="22" tabindex="1" class="required" required/>
                     </div><!-- nameField -->
+                    <br>
                     <div class="emailField">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" size="22" tabindex="1" class="required email" required/>
