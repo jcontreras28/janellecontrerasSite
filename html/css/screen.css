@@ -133,7 +133,8 @@ body.secondVersion {
       body.secondVersion .bodywrap .panelWrap .limitWidth .resSecTitle {
         font-size: 2em;
         font-weight: bold;
-        margin-top: 2em; }
+        margin-top: 2em;
+        text-transform: uppercase; }
       body.secondVersion .bodywrap .panelWrap .limitWidth .resSubSecTitle {
         font-size: 1.2em;
         margin-top: .3em; }
