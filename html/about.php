@@ -12,10 +12,9 @@
     </div><!-- sectionHeading -->
     <div class="row sectionText">
         <div class="limitWidth">
-            <div class="resSecTitle">Dream Job?</div>    
+            <div class="resSecTitle">I love sports :-)</div>    
             <p>First and formost I love to learn.  You give me a challenge and I will take it on with gusto. </p> 
             <p>I love sports!</p>
         </div>
     </div><!-- sectionText -->
-    <div class="windowwidth">click for window width</div>
 </div><!-- panelWrap -->
