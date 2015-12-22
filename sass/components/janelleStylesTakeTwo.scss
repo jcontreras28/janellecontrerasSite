@@ -257,10 +257,17 @@ body.secondVersion {
 				.tabItem {
 					font-size: 1.2em;
 					margin: 2%;
+					&:hover {
+		    			background-color: $siteGreen;
+		    		}
 				}
 				.almTabItem {
 					font-size: 1.2em;
 					margin: 2%;
+					color: white;
+					&:hover {
+		    			background-color: $siteGreen;
+		    		}
 				}
 			}
 			.meImage {

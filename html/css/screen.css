@@ -181,9 +181,14 @@ body.secondVersion {
       body.secondVersion .bodywrap .mobileNav .tabItem {
         font-size: 1.2em;
         margin: 2%; }
+        body.secondVersion .bodywrap .mobileNav .tabItem:hover {
+          background-color: #22a39f; }
       body.secondVersion .bodywrap .mobileNav .almTabItem {
         font-size: 1.2em;
-        margin: 2%; }
+        margin: 2%;
+        color: white; }
+        body.secondVersion .bodywrap .mobileNav .almTabItem:hover {
+          background-color: #22a39f; }
     body.secondVersion .bodywrap .meImage {
       width: 50%;
       margin-left: 25%; }
