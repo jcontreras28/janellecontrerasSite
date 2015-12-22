@@ -12,8 +12,10 @@
         </div>
     </div><!-- sectionHeading -->
     <div class="row sectionText">
-        <p><strong>Employment history</strong></p> 
-        <p>This will look different</p>
+        <div class="limitWidth">
+            <p><strong>Employment history</strong></p> 
+            <p>This will look different</p>
+        </div><!-- limitWidth -->
     </div><!-- sectionText -->
                                     
     <div class="windowwidth">click for window width</div>

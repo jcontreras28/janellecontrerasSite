@@ -114,6 +114,9 @@ body.secondVersion {
           margin-top: 1em; }
         body.secondVersion .bodywrap .panelWrap #contactform .subButton {
           margin-top: 1em; }
+      body.secondVersion .bodywrap .panelWrap .limitWidth {
+        width: 80%;
+        margin-left: 10%; }
     body.secondVersion .bodywrap .selected {
       display: block; }
 
