@@ -259,6 +259,14 @@ body.secondVersion {
 			.tabItem {
 				cursor: pointer;
 			}
+			.limitWidth {
+				width: 96%;
+				margin-left: 2%;
+
+				.resSecTitle {
+					font-size: 1em;
+				}
+			}
 		}
 	}
 

@@ -180,4 +180,9 @@ body.secondVersion {
       width: 50%;
       margin-left: 25%; }
     body.secondVersion .bodywrap .tabItem {
-      cursor: pointer; } }
+      cursor: pointer; }
+    body.secondVersion .bodywrap .limitWidth {
+      width: 96%;
+      margin-left: 2%; }
+      body.secondVersion .bodywrap .limitWidth .resSecTitle {
+        font-size: 1em; } }
