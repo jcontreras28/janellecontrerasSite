@@ -7,7 +7,8 @@
             <div class="sectionTitle">
                 Is this work?
             </div>
-
+            <span class="fa fa-download"></span>
+            <a target="_blank" href="Janelle_Contreras_Resume.pdf">Download PDF version</a>
         </div>
     </div><!-- sectionHeading -->
     <div class="row sectionText">
