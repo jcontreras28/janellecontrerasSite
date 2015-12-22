@@ -33,6 +33,7 @@ body.secondVersion {
         text-decoration: none;
         color: #22a39f; }
   body.secondVersion .bottomBackground {
+    height: 1000px;
     background-image: url("http://janellecontreras.com/images/greyWoodBack2.jpg");
     background-color: #aaa; }
   body.secondVersion .bodywrap {
