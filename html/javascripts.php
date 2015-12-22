@@ -5,7 +5,7 @@
                 var winWidth = $(window).width();
                 var winHeight = $(window).height();
                 alert("width = "+winWidth);
-                if (winWidth < 800) {
+                if (winWidth > 800) {
                         winHeight = winHeight - 215;
                 }
                 if (winHeight > theHeight) {
