@@ -148,12 +148,6 @@ body.secondVersion {
 		    		margin-top: 1em;
 		    	}
 			}
-			
-			.resProfTitle {
-				font-size: 2em;
-				font-weight: bold;
-				margin-top: .3em;
-			}
 		}
 		.selected {
 			display: block;
@@ -199,6 +193,12 @@ body.secondVersion {
 						font-weight: bold;
 					}
 				}
+			}
+
+			.resProfTitle {
+				font-size: 2em;
+				font-weight: bold;
+				margin-top: .3em;
 			}
 
 			.mainNav {
@@ -279,6 +279,11 @@ body.secondVersion {
 					margin-top: 1em;
 					font-weight: bold;
 				}
+			}
+			.resProfTitle {
+				font-size: 1em;
+				font-weight: bold;
+				margin-top: .3em;
 			}
 		}
 	}
