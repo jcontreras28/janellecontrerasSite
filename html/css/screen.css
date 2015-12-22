@@ -121,6 +121,11 @@ body.secondVersion {
           font-size: 2em;
           font-weight: bold;
           margin-top: 2em; }
+        body.secondVersion .bodywrap .panelWrap .limitWidth .resSubSecTitle {
+          font-size: 1.5em;
+          font-weight: bold; }
+        body.secondVersion .bodywrap .panelWrap .limitWidth .resJobTitle {
+          font-size: 1.2em; }
     body.secondVersion .bodywrap .selected {
       display: block; }
 
