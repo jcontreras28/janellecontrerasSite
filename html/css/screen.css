@@ -178,4 +178,6 @@ body.secondVersion {
         left: 10%; }
     body.secondVersion .bodywrap .meImage {
       width: 50%;
-      margin-left: 25%; } }
+      margin-left: 25%; }
+    body.secondVersion .bodywrap .tabItem {
+      cursor: pointer; } }
