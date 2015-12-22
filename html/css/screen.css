@@ -114,20 +114,6 @@ body.secondVersion {
           margin-top: 1em; }
         body.secondVersion .bodywrap .panelWrap #contactform .subButton {
           margin-top: 1em; }
-      body.secondVersion .bodywrap .panelWrap .limitWidth {
-        width: 80%;
-        margin-left: 10%; }
-        body.secondVersion .bodywrap .panelWrap .limitWidth .resSecTitle {
-          font-size: 2em;
-          font-weight: bold;
-          margin-top: 2em; }
-        body.secondVersion .bodywrap .panelWrap .limitWidth .resSubSecTitle {
-          font-size: 1.2em;
-          margin-top: .3em; }
-        body.secondVersion .bodywrap .panelWrap .limitWidth .resJobTitle {
-          font-size: 1.2em;
-          margin-top: 1em;
-          font-weight: bold; }
       body.secondVersion .bodywrap .panelWrap .resProfTitle {
         font-size: 2em;
         font-weight: bold;
@@ -145,6 +131,20 @@ body.secondVersion {
     body.secondVersion .bodywrap .panelWrap .sectionHeading .meImage {
       width: 94%;
       margin-left: 3%; }
+    body.secondVersion .bodywrap .panelWrap .limitWidth {
+      width: 80%;
+      margin-left: 10%; }
+      body.secondVersion .bodywrap .panelWrap .limitWidth .resSecTitle {
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 2em; }
+      body.secondVersion .bodywrap .panelWrap .limitWidth .resSubSecTitle {
+        font-size: 1.2em;
+        margin-top: .3em; }
+      body.secondVersion .bodywrap .panelWrap .limitWidth .resJobTitle {
+        font-size: 1.2em;
+        margin-top: 1em;
+        font-weight: bold; }
     body.secondVersion .bodywrap .mainNav {
       font-size: 2em;
       line-height: 2em;
@@ -185,4 +185,13 @@ body.secondVersion {
       width: 96%;
       margin-left: 2%; }
       body.secondVersion .bodywrap .limitWidth .resSecTitle {
-        font-size: 1em; } }
+        font-size: 1em;
+        font-weight: bold;
+        margin-top: 1em; }
+      body.secondVersion .bodywrap .limitWidth .resSubSecTitle {
+        font-size: 1em;
+        margin-top: .3em; }
+      body.secondVersion .bodywrap .limitWidth .resJobTitle {
+        font-size: 1em;
+        margin-top: 1em;
+        font-weight: bold; } }

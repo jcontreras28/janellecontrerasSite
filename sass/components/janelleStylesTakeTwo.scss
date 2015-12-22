@@ -148,26 +148,7 @@ body.secondVersion {
 		    		margin-top: 1em;
 		    	}
 			}
-			.limitWidth {
-				width: 80%;
-				margin-left: 10%;
-				.resSecTitle {
-					font-size: 2em;
-					font-weight: bold;
-					margin-top: 2em;
-
-				}
-				.resSubSecTitle {
-					font-size: 1.2em;
-					margin-top: .3em;
-
-				}
-				.resJobTitle {
-					font-size: 1.2em;
-					margin-top: 1em;
-					font-weight: bold;
-				}
-			}
+			
 			.resProfTitle {
 				font-size: 2em;
 				font-weight: bold;
@@ -197,6 +178,26 @@ body.secondVersion {
 				    	width: 94%;
 				    	margin-left: 3%;
 				    }
+				}
+				.limitWidth {
+					width: 80%;
+					margin-left: 10%;
+					.resSecTitle {
+						font-size: 2em;
+						font-weight: bold;
+						margin-top: 2em;
+
+					}
+					.resSubSecTitle {
+						font-size: 1.2em;
+						margin-top: .3em;
+
+					}
+					.resJobTitle {
+						font-size: 1.2em;
+						margin-top: 1em;
+						font-weight: bold;
+					}
 				}
 			}
 
@@ -262,9 +263,21 @@ body.secondVersion {
 			.limitWidth {
 				width: 96%;
 				margin-left: 2%;
-
 				.resSecTitle {
 					font-size: 1em;
+					font-weight: bold;
+					margin-top: 1em;
+
+				}
+				.resSubSecTitle {
+					font-size: 1em;
+					margin-top: .3em;
+
+				}
+				.resJobTitle {
+					font-size: 1em;
+					margin-top: 1em;
+					font-weight: bold;
 				}
 			}
 		}
