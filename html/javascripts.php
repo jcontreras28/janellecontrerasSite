@@ -2,6 +2,8 @@
 
         var jPageType = "<?php Print($pageType); ?>";
 
+        echo "jPageType = ".$pageType;
+
         if(jPageType.length > 1) {
 
                 // updating menu
