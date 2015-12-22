@@ -1,5 +1,10 @@
 <script type="text/javascript">
 
+        function sizeBackground() {
+                var theHeight = $('.selected').height();
+                alert("height = "+theHeight);
+        }
+
         var jPageType = "<?php Print($pageType); ?>";
 
         if(jPageType.length > 1) {
@@ -15,7 +20,10 @@
                         
                 var newPanel = $('#' + jPageType);
                 newPanel.addClass("selected");
+
+                sizeBackground();
         }
+
 
         $('.tabItem').click(function() {
                 var theId = $(this).attr('id');
@@ -33,6 +41,8 @@
                         
                 var newPanel = $('#' + theId);
                 newPanel.addClass("selected");
+
+                sizeBackground();
         });
 
         $('.fa-envelope').click(function() {
@@ -49,6 +59,8 @@
 
                 $('#contactform').show();
                 $('.thankyouPanel').hide();
+
+                sizeBackground();
         });
 
         $('.myName').click(function() {
@@ -65,6 +77,8 @@
                         
                 var newPanel = $('#skills');
                 newPanel.addClass("selected");
+
+                sizeBackground();
         })
 
         $('.fa-github').click(function() {
@@ -78,6 +92,8 @@
                 var oldPanel = $('.selected')
                 oldPanel.removeClass("selected")
                 $('#gitRepo').addClass("selected");
+
+                sizeBackground();
         });
 
 
