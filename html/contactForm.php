@@ -1,7 +1,7 @@
 <div class="panelWrap" id="contactForm"><!-- Contact Form -->
     <div class="contactcontent">
         <div id="contact-form">
-            <form id="contactform" method="post" class="contactsubmit">
+            <form action="javascript:void(0);" id="contactform" method="post" class="contactsubmit">
                 <div class="topRow">
                     <div class="nameField">
                         <label for="name">Name</label>
