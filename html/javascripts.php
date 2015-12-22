@@ -37,6 +37,9 @@
 
 
         $('.tabItem').click(function() {
+
+                $('.mobileItems').slideToggle(2);
+
                 var theId = $(this).attr('id');
                 theId = theId.replace("li", "");
 
@@ -53,7 +56,6 @@
                 var newPanel = $('#' + theId);
                 newPanel.addClass("selected");
 
-                alert("here1");
                 sizeBackground();
         });
 
@@ -77,7 +79,6 @@
 
         $('.myName').click(function() {
 
-                $('.mobileItems').slideToggle(2);
                 // updating menu
                 var oldTab = $('.menuItemSelected');
                 oldTab.removeClass('menuItemSelected');
