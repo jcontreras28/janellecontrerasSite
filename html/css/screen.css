@@ -186,7 +186,8 @@ body.secondVersion {
       body.secondVersion .bodywrap .mobileNav .almTabItem {
         font-size: 1.2em;
         margin: 2%;
-        color: white; }
+        color: white;
+        text-decoration: none; }
         body.secondVersion .bodywrap .mobileNav .almTabItem:hover {
           background-color: #22a39f; }
     body.secondVersion .bodywrap .meImage {
