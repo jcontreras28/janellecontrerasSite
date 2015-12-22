@@ -164,9 +164,9 @@ body.secondVersion {
   body.secondVersion .topBackground {
     display: none; }
   body.secondVersion .bodywrap {
-    top: 100px;
-    left: 10%;
-    width: 80%; }
+    top: 10px;
+    left: 5%;
+    width: 90%; }
     body.secondVersion .bodywrap .mainNav {
       display: none; }
     body.secondVersion .bodywrap .mobileNav {
