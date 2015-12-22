@@ -98,8 +98,8 @@
                  //           ;
                         $('#contactform').hide();
                         $('.thankyouPanel').show();
-                }
-        })
+                //}
+        });
 
 
 </script>
