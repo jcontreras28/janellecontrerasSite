@@ -1,5 +1,8 @@
 <script type="text/javascript">
 
+        //********************************************************************
+        //      function declarations
+        //********************************************************************
         function sizeBackground() {
                 var theHeight = $('.selected').height() + 100;
                 var winWidth = $(window).width();
@@ -23,26 +26,30 @@
                 }
         }
 
-        var jPageType = "<?php Print($pageType); ?>";
-
-        if(jPageType.length > 1) {
-
-                // updating menu
-                var oldTab = $('.menuItemSelected');
-                oldTab.removeClass('menuItemSelected');
-                $('#li'+jPageType).addClass("menuItemSelected");
-
-                // updating page
-                var oldPanel = $('.selected')
-                oldPanel.removeClass("selected")
-                        
-                var newPanel = $('#' + jPageType);
-                newPanel.addClass("selected");
-
-                sizeBackground();
+        function validateForm() {
+                var x = document.forms["contactform"]["name"].value;
+                var y = document.forms["contactform"]["email"].value;
+                var z = document.forms["contactform"]["message"].value;
+                if (x == null || x == "") {
+                        alert("Must include name.");
+                        return false;
+                }
+                else if (y == null || y == "") {
+                        alert("Must include your email.");
+                        return false;
+                }
+                else if (z == null || z == "") {
+                        alert("Must include message.");
+                        return false;
+                }
+                else 
+                        return true
         }
 
-
+        
+        //********************************************************************
+        //      Event Handlers
+        //********************************************************************
         $('.tabItem').click(function() {
 
                 $('.mobileItems').slideToggle(2);
@@ -126,25 +133,7 @@
                 $('.mobileItems').slideToggle(350);
         });
 
-        function validateForm() {
-                var x = document.forms["contactform"]["name"].value;
-                var y = document.forms["contactform"]["email"].value;
-                var z = document.forms["contactform"]["message"].value;
-                if (x == null || x == "") {
-                        alert("Must include name.");
-                        return false;
-                }
-                else if (y == null || y == "") {
-                        alert("Must include your email.");
-                        return false;
-                }
-                else if (z == null || z == "") {
-                        alert("Must include message.");
-                        return false;
-                }
-                else 
-                        return true
-        }
+        
 
         $('#submit').click(function() {
                 if (validateForm()){
@@ -165,6 +154,32 @@
                 }
         });
 
+        $(window).resize(function() {
+                sizeBackground();
+        });
+
+
+        //********************************************************************
+        //      Page entry - happens on page load.
+        //********************************************************************
+        var jPageType = "<?php Print($pageType); ?>";
+
+        if(jPageType.length > 1) {
+
+                // updating menu
+                var oldTab = $('.menuItemSelected');
+                oldTab.removeClass('menuItemSelected');
+                $('#li'+jPageType).addClass("menuItemSelected");
+
+                // updating page
+                var oldPanel = $('.selected')
+                oldPanel.removeClass("selected")
+                        
+                var newPanel = $('#' + jPageType);
+                newPanel.addClass("selected");
+
+                sizeBackground();
+        }
 
 </script>
 
