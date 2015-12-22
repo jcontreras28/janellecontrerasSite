@@ -7,17 +7,18 @@
             <div class="sectionTitle">
                 Is this work?
             </div>
+            <div class="resSecTitle">Profile</div> 
+            <div class="resText">I am a programmer that has worked on all aspects of web development as well as embeded systems.  
+                Basically, I can do it all.  My favorite types of projects involve my love of mathematics combined with the problem solving of writing code.  
+                In this line of work, I get to do puzzles all day long and get paid for it.
+            </div>
+            
             <span class="fa fa-download"></span>
             <a target="_blank" href="Janelle_Contreras_Resume.pdf">Download PDF version</a>
         </div>
     </div><!-- sectionHeading -->
     <div class="row sectionText">
         <div class="limitWidth">
-            <div class="resSecTitle">Profile</div> 
-            <div class="resText">I am a programmer that has worked on all aspects of web development as well as embeded systems.  
-                Basically, I can do it all.  My favorite types of projects involve my love of mathematics combined with the problem solving of writing code.  
-                In this line of work, I get to do puzzles all day long and get paid for it.
-            </div>
             <div class="resSecTitle">Languages/Frameworks</div> 
             <div class="resText">
                 <ul>
