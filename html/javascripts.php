@@ -13,6 +13,7 @@
                                 $('.bottomBackground').height(theHeight+"px");
                         }
                 } else {
+                        alert("winHeight: "+winHeight+"  theHeight: "+theHeight);
                         if (winHeight > theHeight + 100) {
                                 $('.bottomBackground').height(winHeight+"px");
                         }else {
@@ -37,7 +38,6 @@
                 var newPanel = $('#' + jPageType);
                 newPanel.addClass("selected");
 
-                alert("here1");
                 sizeBackground();
         }
 
