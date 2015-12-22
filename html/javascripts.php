@@ -2,7 +2,8 @@
 
         function sizeBackground() {
                 var theHeight = $('.selected').height();
-                alert("height = "+theHeight);
+                //alert("height = "+theHeight);
+                $('.bottomBackground').height(theHeight+"px");
         }
 
         var jPageType = "<?php Print($pageType); ?>";
