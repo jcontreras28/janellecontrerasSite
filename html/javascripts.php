@@ -94,14 +94,22 @@
         }
 
         $('#submit').click(function() {
-                //if (validateForm()){
-                 //       var link = "mailto:janellec@bendbroadband.com"
-                 //                    + "&subject=" + escape("This is my subject")
-                 //                    + "&body=" + escape(document.getElementById('message').value)
-                 //           ;
+                if (validateForm()){
+                        $.ajax({
+                                url: '/sendMess.php',
+                                type: 'POST',
+                                dataType: "json",
+                                data: {
+                                    name: $('#name').val(),
+                                    email: $('#email').val(),
+                                    message: $('#message').val()
+                                }
+                            }).done(function(data){
+                                    alert(JSON.stringify(data));
+                        });
                         $('#contactform').hide();
                         $('.thankyouPanel').show();
-                //}
+                }
         });
 
 
