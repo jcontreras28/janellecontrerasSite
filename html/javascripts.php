@@ -17,6 +17,7 @@
                         if (winHeight > theHeight + 100) {
                                 $('.bottomBackground').height(winHeight+"px");
                         }else {
+                                theHeight = theHeight + 50;
                                 $('.bottomBackground').height(theHeight+"px");
                         }
                 }
