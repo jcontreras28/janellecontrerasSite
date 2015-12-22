@@ -106,7 +106,24 @@
                 newPanel.addClass("selected");
 
                 sizeBackground();
-        })
+        });
+        
+        $('.mobileName').click(function() {
+                // updating menu
+                var oldTab = $('.menuItemSelected');
+                oldTab.removeClass('menuItemSelected');
+
+                $('#liskills').addClass("menuItemSelected");
+
+                // updating page
+                var oldPanel = $('.selected')
+                oldPanel.removeClass("selected")
+                        
+                var newPanel = $('#skills');
+                newPanel.addClass("selected");
+
+                sizeBackground();
+        });
 
         $('.fa-github').click(function() {
 
