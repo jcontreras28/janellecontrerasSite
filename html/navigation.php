@@ -22,5 +22,7 @@
         <div class="tabItem" id="liexperience">Resume</div>
         <div class="tabItem" id="lidream">Dream</div>
         <div class="tabItem" id="liabout">About</div>
+        <div class="tabItem" id="licontact">Contact</div>
+        <div class="tabItem" id="lilinked">LinkedIn</div>
     </div><!-- mobileItems -->
 </div><!-- mobileNav -->
