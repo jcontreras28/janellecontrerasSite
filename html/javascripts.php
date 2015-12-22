@@ -2,7 +2,7 @@
 
         function sizeBackground() {
                 var theHeight = $('.selected').height() + 100;
-                var winHeight = $(window).height() - 250;
+                var winHeight = $(window).height() - 220;
 
                 if (winHeight > theHeight) {
                         $('.bottomBackground').height(winHeight+"px");
