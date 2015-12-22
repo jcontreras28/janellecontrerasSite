@@ -27,6 +27,8 @@
 
             <?php require 'contactForm.php'; ?>
 
+            <?php require 'thankyou.php'; ?>
+
             <div class="panelWrap" id="gitRepo">
                     <!-- Contact Form -->
                     <div class="contactcontent">
