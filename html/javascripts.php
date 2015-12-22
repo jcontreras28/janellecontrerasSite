@@ -2,8 +2,13 @@
 
         function sizeBackground() {
                 var theHeight = $('.selected').height() + 100;
-                //alert("height = "+theHeight);
-                $('.bottomBackground').height(theHeight+"px");
+                var winHeight = $(window).height();
+
+                if (winHeight > theHeight) {
+                        $('.bottomBackground').height(winHeight+"px");
+                }else {
+                        $('.bottomBackground').height(theHeight+"px");
+                }
         }
 
         var jPageType = "<?php Print($pageType); ?>";
