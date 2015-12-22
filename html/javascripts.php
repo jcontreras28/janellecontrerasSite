@@ -16,7 +16,7 @@
                                 $('.bottomBackground').height(theHeight+"px");
                         }
                 } else {
-                        var theHeight = $('.bodyWrap').height();
+                        theHeight = $('.bodyWrap').height()+$('.mobileNav').height();
                         if (winHeight > theHeight + 100) {
                                 $('.bottomBackground').height(winHeight+"px");
                         }else {
