@@ -145,7 +145,8 @@ body.secondVersion {
     body.secondVersion .bodywrap .resProfTitle {
       font-size: 2em;
       font-weight: bold;
-      margin-top: .3em; }
+      margin-top: .3em;
+      text-transform: uppercase; }
     body.secondVersion .bodywrap .mainNav {
       font-size: 2em;
       line-height: 2em;
@@ -198,6 +199,7 @@ body.secondVersion {
         margin-top: 1em;
         font-weight: bold; }
     body.secondVersion .bodywrap .resProfTitle {
-      font-size: 1em;
+      font-size: 1.2em;
       font-weight: bold;
-      margin-top: .3em; } }
+      margin-top: .3em;
+      text-transform: uppercase; } }
