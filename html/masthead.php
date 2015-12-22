@@ -1,7 +1,7 @@
 <div class="topBackground">
     <div class="headerRow">
         <div class="col-sm-8 headerItem myName">
-            <a href="janellecontreras.com">Janelle Contreras</a>
+            Janelle Contreras
         </div><!-- headerItem myName -->
         <div class="col-sm-4 headerItem myLinks">
             <i class="fa fa-github fa-4x"></i>

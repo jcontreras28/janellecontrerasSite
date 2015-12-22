@@ -51,6 +51,22 @@
                 $('.thankyouPanel').hide();
         });
 
+        $('.myName').click(function() {
+
+                // updating menu
+                var oldTab = $('.menuItemSelected');
+                oldTab.removeClass('menuItemSelected');
+
+                $('#liskills').addClass("menuItemSelected");
+
+                // updating page
+                var oldPanel = $('.selected')
+                oldPanel.removeClass("selected")
+                        
+                var newPanel = $('#skills');
+                newPanel.addClass("selected");
+        })
+
         $('.fa-github').click(function() {
 
                 // updating menu
