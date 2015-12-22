@@ -123,11 +123,11 @@ body.secondVersion {
           margin-top: 2em; }
         body.secondVersion .bodywrap .panelWrap .limitWidth .resSubSecTitle {
           font-size: 1.2em;
-          font-weight: bold;
           margin-top: .3em; }
         body.secondVersion .bodywrap .panelWrap .limitWidth .resJobTitle {
           font-size: 1.2em;
-          margin-top: .6em; }
+          margin-top: 1em;
+          font-weight: bold; }
       body.secondVersion .bodywrap .panelWrap .resProfTitle {
         font-size: 2em;
         font-weight: bold;
