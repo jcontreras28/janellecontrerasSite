@@ -91,11 +91,11 @@
         }
 
         $('#submit').click(function() {
-                if (validateForm()){
-                        var link = "mailto:janellec@bendbroadband.com"
-                                     + "&subject=" + escape("This is my subject")
-                                     + "&body=" + escape(document.getElementById('message').value)
-                            ;
+                //if (validateForm()){
+                 //       var link = "mailto:janellec@bendbroadband.com"
+                 //                    + "&subject=" + escape("This is my subject")
+                 //                    + "&body=" + escape(document.getElementById('message').value)
+                 //           ;
                         $('#contactform').hide();
                         $('.thankyouPanel').show();
                 }
