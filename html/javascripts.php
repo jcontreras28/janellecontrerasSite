@@ -1,7 +1,7 @@
 <script type="text/javascript">
 
         function sizeBackground() {
-                var theHeight = $('.selected').height();
+                var theHeight = $('.selected').height() + 100;
                 //alert("height = "+theHeight);
                 $('.bottomBackground').height(theHeight+"px");
         }
