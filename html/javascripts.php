@@ -72,6 +72,11 @@
                 $('.mobileItems').slideToggle(350);
         });
 
+        $('#submit').click(function() {
+                $('#contactform').hide();
+                $('.thankyouPanel').show();
+        })
+
 
 </script>
 

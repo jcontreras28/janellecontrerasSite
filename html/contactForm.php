@@ -1,7 +1,7 @@
 <div class="panelWrap" id="contactForm"><!-- Contact Form -->
     <div class="contactcontent">
         <div id="contact-form">
-            <form action="http://janellecontreras.com/sendMess.php" id="contactform" method="post" class="contactsubmit">
+            <form id="contactform" method="post" class="contactsubmit">
                 <div class="topRow">
                     <div class="nameField">
                         <label for="name">Name</label>
@@ -27,6 +27,9 @@
                 // $("#contactform").validate();
             </script>
         </div><!-- id: contactForm -->
+        <div class="thankyouPanel" style="display:none">
+            <h2>Thank you for your message!</h2>
+        </div>
         <div class="clear"></div>
     </div><!-- contactcontent -->
 </div><!-- panelWrap -->
