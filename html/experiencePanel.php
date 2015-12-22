@@ -40,7 +40,7 @@
                 </ul>
             </div>
             <div class="resSecTitle">Experience</div> 
-            <div class="resSubSecTitle">Bend Bulletin Newspapaer, Bend, OR (01/2013 - Pressent)</div>
+            <div class="resSubSecTitle">Western Communications Bend, OR (01/2013 - Present)</div>
             <div class="resJobTitle">Full stack web developer</div>
             <div class="resText">Worked with team of engineers and journalists to create and maintain news websites. Thisincluded developing many tools for users to interface with the CMS.</div>
             <div class="resSecTitle">Education</div> 
