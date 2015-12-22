@@ -71,11 +71,23 @@
         });
 
         function validateForm() {
-                var x = document.forms["contactform"]["message"].value;
+                var x = document.forms["contactform"]["name"].value;
+                var y = document.forms["contactform"]["email"].value;
+                var z = document.forms["contactform"]["message"].value;
                 if (x == null || x == "") {
-                        alert("Name must be filled out");
+                        alert("Must include name.");
                         return false;
                 }
+                else if (y == null || y == "") {
+                        alert("Must include your email.");
+                        return false;
+                }
+                else if (z == null || z == "") {
+                        alert("Must include message.");
+                        return false;
+                }
+                else 
+                        return true
         }
 
         $('#submit').click(function() {
