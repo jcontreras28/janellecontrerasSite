@@ -117,6 +117,10 @@ body.secondVersion {
       body.secondVersion .bodywrap .panelWrap .limitWidth {
         width: 80%;
         margin-left: 10%; }
+        body.secondVersion .bodywrap .panelWrap .limitWidth .resSecTitle {
+          font-size: 2em;
+          font-weight: bold;
+          margin-top: 2em; }
         body.secondVersion .bodywrap .panelWrap .limitWidth .resSubSecTitle {
           font-size: 1.2em;
           font-weight: bold;
@@ -124,10 +128,10 @@ body.secondVersion {
         body.secondVersion .bodywrap .panelWrap .limitWidth .resJobTitle {
           font-size: 1.2em;
           margin-top: .3em; }
-      body.secondVersion .bodywrap .panelWrap .resSecTitle {
+      body.secondVersion .bodywrap .panelWrap .resProfTitle {
         font-size: 2em;
         font-weight: bold;
-        margin-top: 2em; }
+        margin-top: .3em; }
     body.secondVersion .bodywrap .selected {
       display: block; }
 

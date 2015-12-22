@@ -151,7 +151,12 @@ body.secondVersion {
 			.limitWidth {
 				width: 80%;
 				margin-left: 10%;
-				
+				.resSecTitle {
+					font-size: 2em;
+					font-weight: bold;
+					margin-top: 2em;
+
+				}
 				.resSubSecTitle {
 					font-size: 1.2em;
 					font-weight: bold;
@@ -163,10 +168,10 @@ body.secondVersion {
 					margin-top: .3em;
 				}
 			}
-			.resSecTitle {
+			.resProfTitle {
 				font-size: 2em;
 				font-weight: bold;
-				margin-top: 2em;
+				margin-top: .3em;
 			}
 		}
 		.selected {
