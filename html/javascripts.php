@@ -46,6 +46,9 @@
                 var oldPanel = $('.selected')
                 oldPanel.removeClass("selected")
                 $('#contactForm').addClass("selected");
+
+                $('#contactform').show();
+                $('.thankyouPanel').hide();
         });
 
         $('.fa-github').click(function() {
