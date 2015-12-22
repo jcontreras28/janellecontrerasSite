@@ -150,9 +150,7 @@
         });
 
         $('.menuSandwhich').click(function() {
-                alert("start slide");
                 $('.mobileItems').slideToggle(350, function() {
-                        alert("slide done");
                        sizeBackground(); 
                 });
         });
