@@ -77,6 +77,7 @@
 
         $('.myName').click(function() {
 
+                $('.mobileItems').slideToggle(2);
                 // updating menu
                 var oldTab = $('.menuItemSelected');
                 oldTab.removeClass('menuItemSelected');
