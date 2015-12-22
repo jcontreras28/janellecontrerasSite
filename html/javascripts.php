@@ -72,9 +72,23 @@
                 $('.mobileItems').slideToggle(350);
         });
 
+        function validateForm() {
+                var x = document.forms["contactform"]["message"].value;
+                if (x == null || x == "") {
+                        alert("Name must be filled out");
+                        return false;
+                }
+        }
+
         $('#submit').click(function() {
-                $('#contactform').hide();
-                $('.thankyouPanel').show();
+                if (validateForm()){
+                        var link = "mailto:janellec@bendbroadband.com"
+                                     + "&subject=" + escape("This is my subject")
+                                     + "&body=" + escape(document.getElementById('message').value)
+                            ;
+                        $('#contactform').hide();
+                        $('.thankyouPanel').show();
+                }
         })
 
 
