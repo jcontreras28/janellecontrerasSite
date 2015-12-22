@@ -2,7 +2,7 @@
     if(isset($_GET["pageType"])) {
         $pageType = $_GET["pageType"];
     } else {
-        $pageType = "main";
+        $pageType = "skills";
     }
 ?>
 
