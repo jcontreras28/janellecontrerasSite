@@ -39,9 +39,9 @@
                 </ul>
             </div>
             <div class="resSecTitle">Experience</div> 
-            <div class="resJobTitle">Full stack web developer</div>
+            <div class="resJobTitle">Full Stack Web Developer</div>
             <div class="resSubSecTitle">Western Communications, Bend, OR (01/2013 - Present)</div>
-            <div class="resText">Worked with team of engineers and journalists to create and maintain news websites. This included developing many tools for users to interface with the CMS.</div>
+            <div class="resText">Worked with team of engineers and journalists to create and maintain news websites. This included developing many tools for users to interface with the CMS.  Also create, and maintain various LAMP stacks for the tools used.</div>
             <div class="resJobTitle">Mathematics Teacheer</div>
             <div class="resSubSecTitle">Summit High School, Bend, OR (08/2007 - 06/2010)</div>
             <div class="resText">Taught all levels of high school mathematics through creative hands on or discovery style lessons.</div>
