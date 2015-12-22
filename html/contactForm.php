@@ -8,11 +8,12 @@
                         <input type="text" name="name" id="name" minlength="2" size="22" tabindex="1" class="required" required/>
                     </div><!-- nameField -->
                     <br>
-                    <div class="emailField">
+                    
+                </div><!-- topRow -->
+                <div class="emailField">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" size="22" tabindex="1" class="required email" required/>
                     </div><!-- emailField -->
-                </div><!-- topRow -->
                 <div class="clearfix"></div>
                 <div class="messageRow">
                     <label for="message">Message</label><br>
